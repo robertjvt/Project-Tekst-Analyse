@@ -61,16 +61,43 @@ def average_sentence_length(distribution):
         total_length += value
     return total_sentences / total_length
 
-    
+
+def token_types(data):
+	'''
+	Returns the amount of token types and an alphabetically ordered list of token types of a document.
+	'''
+	word_list = nltk.word_tokenize(data)
+	fdist = nltk.FreqDist(word_list)
+	alpha_list = []
+	for b,f in fdist.items():
+	    alpha_list.append(b)
+	alpha_list = sorted(alpha_list)
+	return len(alpha_list), alpha_list
+
+
+def character_types(data):
+	'''
+	Returns the amount of character types and an alphabetically ordered list of character types of a document.
+	'''
+	word_list = nltk.word_tokenize(data)
+	unique_chars = []
+	for word in word_list:
+		for char in word:
+			if char not in unique_chars:
+				unique_chars.append(char)
+	unique_chars = sorted(unique_chars)
+	return len(unique_chars), unique_chars
+
 def main():
     with open('holmes.txt') as file:
         data = file.read()
-
     sentences = nltk.sent_tokenize(data)
     longest = longest_sentences(sentences)
     shortest = shortest_sentence(sentences)
     distribution = sentence_distribution(sentences)
     average_length = average_sentence_length(distribution)
-    
+    token_type = token_types(data)
+    char_types = character_types(data)
+
 if __name__ == "__main__":
     main()
