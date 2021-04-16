@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import nltk
+from collections import Counter
 
 
 def longest_sentences(sentences):
@@ -88,6 +89,42 @@ def character_types(data):
 	unique_chars = sorted(unique_chars)
 	return len(unique_chars), unique_chars
 
+
+def first_20(count_list):
+    '''
+    This function is used to print each item from a list containing tuples.
+    It can be called in the functions top20_character_types(data) and 
+    top20_token_types(data).
+    '''
+    for item in count_list:
+        print(item[0], item[1])
+
+
+def top20_character_types(data):
+    '''
+    This function returns a three lists containing tuples
+    (format: (n-gram), count). The lists are unigrams, bigrams and trigrams
+    respectively at character level.
+    '''
+    unigram_count = Counter(data).most_common(20)
+    bigram_count = Counter(list(nltk.bigrams(data))).most_common(20)
+    trigram_count = Counter(list(nltk.trigrams(data))).most_common(20)
+    return unigram_count, bigram_count, trigram_count
+
+
+def top20_token_types(data):
+    '''
+    This function returns a three lists containing tuples
+    (format: (n-gram), count). The lists are unigrams, bigrams and trigrams
+    respectively at token level.
+    '''
+    tokens = nltk.word_tokenize(data)
+    unigram_count = Counter(tokens).most_common(20)
+    bigram_count = Counter(list(nltk.bigrams(tokens))).most_common(20)
+    trigram_count = Counter(list(nltk.trigrams(tokens))).most_common(20)
+    return unigram_count, bigram_count, trigram_count
+
+
 def main():
     with open('holmes.txt') as file:
         data = file.read()
@@ -98,6 +135,9 @@ def main():
     average_length = average_sentence_length(distribution)
     token_type = token_types(data)
     char_types = character_types(data)
+    top20_character_types(data)
+    top20_token_types(data)
+    
 
 if __name__ == "__main__":
     main()
