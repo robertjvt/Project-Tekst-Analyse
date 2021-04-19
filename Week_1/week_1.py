@@ -44,32 +44,32 @@ def average_sentence_length(distribution):
 
 
 def token_types(data):
-	'''
-	Returns the amount of token types and an alphabetically
-	ordered list of token types of a document.
-	'''
-	word_list = nltk.word_tokenize(data)
-	fdist = nltk.FreqDist(word_list)
-	alpha_list = []
-	for b,f in fdist.items():
-	    alpha_list.append(b)
-	alpha_list = sorted(alpha_list)
-	return len(alpha_list), alpha_list
+    '''
+    Returns the amount of token types and an alphabetically
+    ordered list of token types of a document.
+    '''
+    word_list = nltk.word_tokenize(data)
+    fdist = nltk.FreqDist(word_list)
+    alpha_list = []
+    for b,f in fdist.items():
+        alpha_list.append(b)
+    alpha_list = sorted(alpha_list)
+    return len(alpha_list), alpha_list
 
 
 def character_types(data):
-	'''
-	Returns the amount of character types and an alphabetically
-	ordered list of character types of a document.
-	'''
-	word_list = nltk.word_tokenize(data)
-	unique_chars = []
-	for word in word_list:
-		for char in word:
-			if char not in unique_chars:
-				unique_chars.append(char)
-	unique_chars = sorted(unique_chars)
-	return len(unique_chars), unique_chars
+    '''
+    Returns the amount of character types and an alphabetically
+    ordered list of character types of a document.
+    '''
+    word_list = nltk.word_tokenize(data)
+    unique_chars = []
+    for word in word_list:
+        for char in word:
+            if char not in unique_chars:
+                unique_chars.append(char)
+    unique_chars = sorted(unique_chars)
+    return len(unique_chars), unique_chars
 
 
 def first_20(count_list):
