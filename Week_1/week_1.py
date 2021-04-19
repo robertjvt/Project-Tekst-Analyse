@@ -4,31 +4,10 @@ import nltk
 from collections import Counter
 
 
-def longest_sentences(sentences):
-    # Kan op deze manier of op de simpelere manier hieronder (die returned echter maar 1).
-    '''
-    Returns the longest sentences found in the input list.
-    '''
-    longest_sentence = ''
-    longest_sentences = []
-    
-    for sentence in sentences:
-        if len(sentence) > len(longest_sentence):
-            longest_sentence = sentence
-            if longest_sentences != []:
-                longest_sentences.clear()
-                longest_sentences.append(sentence)
-            else:
-                longest_sentences.append(sentence)
-        elif len(sentence) == len(longest_sentence):
-            longest_sentences.append(sentence)
-        
-    return longest_sentences
-
-
 def longest_sentence(sentences):
     '''
     Returns the first longest sentence found in the input list.
+    Will not return others of the same length.
     '''
     return max(sentences, key=len)
 
@@ -36,6 +15,7 @@ def longest_sentence(sentences):
 def shortest_sentence(sentences):
     '''
     Returns the first shortest sentence found in the input list.
+    Will not return others of the same length.
     '''
     return min(sentences, key=len)
 
@@ -58,14 +38,15 @@ def average_sentence_length(distribution):
     total_sentences = 0
     total_length = 0
     for key, value in distribution.items():
-        total_sentences += key
-        total_length += value
-    return total_sentences / total_length
+        total_sentences += value
+        total_length += key * value
+    return total_length / total_sentences
 
 
 def token_types(data):
 	'''
-	Returns the amount of token types and an alphabetically ordered list of token types of a document.
+	Returns the amount of token types and an alphabetically
+	ordered list of token types of a document.
 	'''
 	word_list = nltk.word_tokenize(data)
 	fdist = nltk.FreqDist(word_list)
@@ -78,7 +59,8 @@ def token_types(data):
 
 def character_types(data):
 	'''
-	Returns the amount of character types and an alphabetically ordered list of character types of a document.
+	Returns the amount of character types and an alphabetically
+	ordered list of character types of a document.
 	'''
 	word_list = nltk.word_tokenize(data)
 	unique_chars = []
@@ -129,14 +111,14 @@ def main():
     with open('holmes.txt') as file:
         data = file.read()
     sentences = nltk.sent_tokenize(data)
-    longest = longest_sentences(sentences)
+    longest = longest_sentence(sentences)
     shortest = shortest_sentence(sentences)
     distribution = sentence_distribution(sentences)
     average_length = average_sentence_length(distribution)
     token_type = token_types(data)
     char_types = character_types(data)
-    top20_character_types(data)
-    top20_token_types(data)
+    char_unigrams, char_bigrams, char_trigrams = top20_character_types(data)
+    token_unigrams, token_bigrams, token_trigrams = top20_token_types(data)
     
 
 if __name__ == "__main__":
