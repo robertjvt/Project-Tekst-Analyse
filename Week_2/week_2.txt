@@ -2,7 +2,7 @@
 
 2.
 
-c.
+3.
 First 20 POS tags
 ('THE', 'DT')
 ('ADVENTURES', 'NNP')
@@ -26,7 +26,7 @@ First 20 POS tags
 ('Red-headed', 'JJ')
 ... 
 
-d.
+4.
 In the code I used a PMI function to see the association of the POS tags.
 I used PMI, as this gives a good overview of association of independent POS
 tags and we didn't have any expected expected probabilities.
