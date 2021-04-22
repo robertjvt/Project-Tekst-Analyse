@@ -1,1 +1,64 @@
 
+
+2.
+
+3.
+First 20 POS tags
+('THE', 'DT')
+('ADVENTURES', 'NNP')
+('OF', 'NNP')
+('SHERLOCK', 'NNP')
+('HOLMES', 'NNP')
+('by', 'IN')
+('SIR', 'NNP')
+('ARTHUR', 'NNP')
+('CONAN', 'NNP')
+('DOYLE', 'NNP')
+('I', 'PRP')
+('.', '.')
+('A', 'DT')
+('Scandal', 'NNP')
+('in', 'IN')
+('Bohemia', 'NNP')
+('II', 'NNP')
+('.', '.')
+('The', 'DT')
+('Red-headed', 'JJ')
+... 
+
+4.
+In the code I used a PMI function to see the association of the POS tags.
+I used PMI, as this gives a good overview of association of independent POS
+tags and we didn't have any expected expected probabilities.
+Code output:
+
+Top 5 PMI scores:
+((')', ':'), 5.851377341367533)
+(('(', 'CD'), 4.877431233015493)
+(('NNP', '('), 4.609066414543538)
+(('``', "''"), 4.530353231228558)
+(('MD', 'VB'), 4.432612179938715)
+
+Top 5 raw frequencies:
+(('DT', 'NN'), 5986)
+(('IN', 'DT'), 4823)
+(('IN', 'PRP'), 3889)
+(('NN', 'IN'), 3755)
+(('PRP', '$'), 3277)
+
+It looks interesting, although it might be more interesting to look at the top
+10 or the top 20 PMI scores, as the top 5 mainly contain punctuation. If we
+filter that out or look at more PMI scores, we could have some interesting
+results.
+
+The PMI scores differ a lot from the raw frequencies. I think some of the PMI
+scores also indicate the syntax of the text e.g. '(', 'CD', which might be a
+chapter number or something along those lines. The raw frequencies only have
+combinations of actual words (except the last one). Although the examples in
+the raw frequencies appear more frequently, they have a lower probability of
+occuring together.
+
+They could be used to analyse the syntax of a text. This might be useful for
+comparing the syntax of texts from different time periods, texts written in
+different dialects or texts written for different audiences (e.g. for children
+vs for university students).
