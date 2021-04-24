@@ -15,8 +15,59 @@ Explanation: PMI measures how often a bigram appears in relation to its unigrams
 Spearman’s coefficient: 0.9979360165118679
 
 - EXERCISE 2 -
+1.
+Penn Treebank:
+Peter/NNP really/RB liked/VBN the/DT movies/NNS and/CC warm/JJ pop-corn/NN . He/PRP would/MD never/RB bring/VB Mira/NNP with/IN him/PRP , though/IN .
+
+Brown Corpus:
+Peter/NP really/RB liked/VBD the/AT movies/NNS and/CC warm/JJ pop-corn/NN . He/PPS would/MD never/RB bring/VB Mira/NP with/IN him/PPO , though/CS .
+
+NLTK's universal:
+Peter/NOUN really/ADV liked/VERB the/DET movies/NOUN and/CONJ warm/ADJ pop-corn/NOUN . He/PRON would/VERB never/ADV bring/VERB Mira/NOUN with/ADP him/PRON , though/ADP .
 
 2.
+a) How many words and sentences are there?
+Words: 57169
+Sentences: 3886
+
+b) What is the 50th word and its POS? How about the 75th?
+('grim', 'JJ')
+('from', 'IN')
+
+c) How many different POS tags are represented in this Brown category?
+169
+
+d) What are the top 15 words and their counts?
+[('.', 3326), (',', 2805), ('the', 2573), ('to', 1284), ('and', 1215), ('a', 1136), ('of', 903), ('was', 820), ('``', 740), ("''", 738), ('he', 670), ('?', 664), ('in', 658), ('I', 583), ('his', 529)]
+
+e) What are the top 15 POS tags and their counts?
+[('NN', 6461), ('IN', 4692), ('.', 4322), ('AT', 4321), (',', 2805), ('VBD', 2645), ('RB', 2459), ('JJ', 2109), ('VB', 2026), ('PPS', 1767), ('NP', 1737), ('CC', 1692), ('NNS', 1435), ('PPO', 1207), ('VBN', 1161)]
+
+f) What are the most frequent POS tag in the 20th sentence? And in the 40th?
+sentence 20 (index 19): [('PPSS+BER', 1), ('*', 1), ('AT', 1), ('NN', 1), ('TO', 1), ('VB', 1), ('JJ', 1), ('.', 1)]
+sentence 40 (index 39): [('PPSS', 1), ('VBD', 1), ('TO', 1), ('VB', 1), ('IN', 1), ('NN', 1), (',', 1), ('RB', 1), ("''", 1), ('--', 1)]
+
+
+What is the most frequent adverb?
+('back', 119)
+
+What is the most frequent adjective?
+('old', 58)
+
+What POS can the word 'so' be used for?
+[('QL', 43), ('RB', 35), ('CS', 26)]
+
+What is the most frequent POS tag for 'so'?
+('QL', 43)
+
+For each 'so' tag, give an example.
+[[("We've", 'PPSS+HV'), ('always', 'RB'), ('been', 'BEN'), ('so', 'QL'), ('close', 'JJ'), ("''", "''"), ('.', '.')],
+[("I'll", 'PPSS+MD'), ('bet', 'VB'), ('he', 'PPS'), ("wouldn't", 'MD*'), ('be', 'BE'), ('pleased', 'VBN'), ('if', 'CS'), ('a', 'AT'), ('rumdum', 'NN'), ('like', 'CS'), ('me', 'PPO'), ('were', 'BED'), ('to', 'TO'), ('ask', 'VB'), ('his', 'PP$'), ('daughter', 'NN'), ('for', 'IN'), ('a', 'AT'), ('date', 'NN'), ('--', '--'), ('I', 'PPSS'), ('mean', 'VB'), (',', ','), ('after', 'CS'), ("I'm", 'PPSS+BEM'), ('out', 'IN'), ('of', 'IN'), ('the', 'AT'), ('hospital', 'NN'), (',', ','), ('a', 'AT'), ('month', 'NN'), ('or', 'CC'), ('so', 'RB'), ('from', 'IN'), ('now', 'RB'), ("''", "''"), ('.', '.')],
+[('I', 'PPSS'), ('put', 'VB'), ('in', 'RP'), ('new', 'JJ'), ('batteries', 'NNS'), ('so', 'CS'), ('as', 'CS'), ('to', 'TO'), ('be', 'BE'), ('certain', 'JJ'), ("I'd", 'PPSS+MD'), ('have', 'HV'), ('plenty', 'NN'), ('of', 'IN'), ('power', 'NN'), ('and', 'CC'), ('on', 'IN'), ('my', 'PP$'), ('way', 'NN'), ('out', 'RP'), ('walked', 'VBD'), ('over', 'RP'), ('to', 'IN'), ('the', 'AT'), ('regular', 'JJ'), ('parking', 'VBG'), ('stalls', 'NNS'), ('and', 'CC'), ('stood', 'VBD'), ('looking', 'VBG'), ('at', 'IN'), ('them', 'PPO'), ('thoughtfully', 'RB'), ('.', '.')]]
+
+For each 'so's POS, find out the most likely preceding and following POS.
+preceding: (',', 14)
+following: ('JJ', 17)
 
 3.
 First 20 POS tags
