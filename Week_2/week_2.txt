@@ -48,24 +48,24 @@ sentence 20 (index 19): [('PPSS+BER', 1), ('*', 1), ('AT', 1), ('NN', 1), ('TO',
 sentence 40 (index 39): [('PPSS', 1), ('VBD', 1), ('TO', 1), ('VB', 1), ('IN', 1), ('NN', 1), (',', 1), ('RB', 1), ("''", 1), ('--', 1)]
 
 
-What is the most frequent adverb?
+g) What is the most frequent adverb?
 ('back', 119)
 
-What is the most frequent adjective?
+h) What is the most frequent adjective?
 ('old', 58)
 
-What POS can the word 'so' be used for?
+i) What POS can the word 'so' be used for?
 [('QL', 43), ('RB', 35), ('CS', 26)]
 
-What is the most frequent POS tag for 'so'?
+j) What is the most frequent POS tag for 'so'?
 ('QL', 43)
 
-For each 'so' tag, give an example.
+k) For each 'so' tag, give an example.
 [[("We've", 'PPSS+HV'), ('always', 'RB'), ('been', 'BEN'), ('so', 'QL'), ('close', 'JJ'), ("''", "''"), ('.', '.')],
 [("I'll", 'PPSS+MD'), ('bet', 'VB'), ('he', 'PPS'), ("wouldn't", 'MD*'), ('be', 'BE'), ('pleased', 'VBN'), ('if', 'CS'), ('a', 'AT'), ('rumdum', 'NN'), ('like', 'CS'), ('me', 'PPO'), ('were', 'BED'), ('to', 'TO'), ('ask', 'VB'), ('his', 'PP$'), ('daughter', 'NN'), ('for', 'IN'), ('a', 'AT'), ('date', 'NN'), ('--', '--'), ('I', 'PPSS'), ('mean', 'VB'), (',', ','), ('after', 'CS'), ("I'm", 'PPSS+BEM'), ('out', 'IN'), ('of', 'IN'), ('the', 'AT'), ('hospital', 'NN'), (',', ','), ('a', 'AT'), ('month', 'NN'), ('or', 'CC'), ('so', 'RB'), ('from', 'IN'), ('now', 'RB'), ("''", "''"), ('.', '.')],
 [('I', 'PPSS'), ('put', 'VB'), ('in', 'RP'), ('new', 'JJ'), ('batteries', 'NNS'), ('so', 'CS'), ('as', 'CS'), ('to', 'TO'), ('be', 'BE'), ('certain', 'JJ'), ("I'd", 'PPSS+MD'), ('have', 'HV'), ('plenty', 'NN'), ('of', 'IN'), ('power', 'NN'), ('and', 'CC'), ('on', 'IN'), ('my', 'PP$'), ('way', 'NN'), ('out', 'RP'), ('walked', 'VBD'), ('over', 'RP'), ('to', 'IN'), ('the', 'AT'), ('regular', 'JJ'), ('parking', 'VBG'), ('stalls', 'NNS'), ('and', 'CC'), ('stood', 'VBD'), ('looking', 'VBG'), ('at', 'IN'), ('them', 'PPO'), ('thoughtfully', 'RB'), ('.', '.')]]
 
-For each 'so's POS, find out the most likely preceding and following POS.
+l) For each 'so's POS, find out the most likely preceding and following POS.
 preceding: (',', 14)
 following: ('JJ', 17)
 
