@@ -1,3 +1,6 @@
+Groep: Kylian de Rooij, Remi Thüss, Robert van Timmeren
+
+
 - EXERCISE 1 -
 
 1a:
@@ -14,7 +17,9 @@ Explanation: PMI measures how often a bigram appears in relation to its unigrams
 1d:
 Spearman’s coefficient: 0.9573529411764706
 
+
 - EXERCISE 2 -
+
 1.
 Penn Treebank:
 Peter/NNP really/RB liked/VBN the/DT movies/NNS and/CC warm/JJ pop-corn/NN . He/PRP would/MD never/RB bring/VB Mira/NNP with/IN him/PRP , though/IN .
