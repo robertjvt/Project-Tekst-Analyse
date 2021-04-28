@@ -8,6 +8,7 @@ def top_bigrams_pmi(tokens):
     '''
     bigram_measures = nltk.collocations.BigramAssocMeasures()
     finder = BigramCollocationFinder.from_words(tokens)
+    finder.apply_freq_filter(2)
     # The filter below can be uncommented to exclude collocations that occur < 3 times.
         
     # finder.apply_freq_filter(3)
@@ -20,7 +21,8 @@ def top_bigrams_chi(tokens):
     '''
     bigram_measures = nltk.collocations.BigramAssocMeasures()
     finder = BigramCollocationFinder.from_words(tokens)
-    
+    finder.apply_freq_filter(2)
+
     return sorted(finder.nbest(bigram_measures.chi_sq, 20))
 
 
@@ -31,8 +33,11 @@ def top_bigrams_raw(tokens):
     '''
     bigram_measures = nltk.collocations.BigramAssocMeasures()
     finder = BigramCollocationFinder.from_words(tokens)
+    finder.apply_freq_filter(2)
+    scored = finder.score_ngrams(bigram_measures.raw_freq)
+    sorted_bigrams = [bigram for bigram, _ in sorted(scored, key=lambda x: x[1], reverse=True)]
 
-    return sorted(finder.nbest(bigram_measures.raw_freq, 20))
+    return sorted_bigrams[0:20]
 
 
 def spearman_cooficient(rank_list_1, rank_list_2):

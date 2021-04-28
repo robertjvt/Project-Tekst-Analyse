@@ -1,18 +1,18 @@
 - EXERCISE 1 -
 
 1a:
-[('1', '/'), ('31', 'Lyon'), ('ARTHUR', 'CONAN'), ('Alicia', 'Whittington'), ('Amateur', 'Mendicant'), ('Amoy', 'River'), ('Anderson', '",'), ('Apache', 'Indians'), ('Arabian', 'Nights'), ('Arnsworth', 'Castle'), ('Atkinson', 'brothers'), ('BERYL', 'CORONET'), ('BLUE', 'CARBUNCLE'), ('BOSCOMBE', 'VALLEY'), ('Bengal', 'Artillery'), ('Bermuda', 'Dockyard'), ('Blue', 'Carbuncle'), ('Botany', 'variable'), ('CONAN', 'DOYLE'), ('COPPER', 'BEECHES')]
+[('Beryl', 'Coronet'), ('Black', 'Swan'), ('Catherine', 'Cusack'), ('Charing', 'Cross'), ('Count', 'Von'), ('Covent', 'Garden'), ('Ezekiah', 'Hopkins'), ('HEADED', 'LEAGUE'), ('Klux', 'Klan'), ('Ku', 'Klux'), ('Lancaster', 'Gate'), ('San', 'Francisco'), ('Spence', 'Munro'), ('Von', 'Kramm'), ('West', 'End'), ('Yours', 'faithfully'), ('carte', 'blanche'), ('equinoctial', 'gales'), ('moral', 'retrogression'), ('piteous', 'spectacle')]
 
 1b:
-[('1', '/'), ('31', 'Lyon'), ('ARTHUR', 'CONAN'), ('Alicia', 'Whittington'), ('Amateur', 'Mendicant'), ('Amoy', 'River'), ('Anderson', '",'), ('Apache', 'Indians'), ('Arabian', 'Nights'), ('Arnsworth', 'Castle'), ('Atkinson', 'brothers'), ('BERYL', 'CORONET'), ('BLUE', 'CARBUNCLE'), ('BOSCOMBE', 'VALLEY'), ('Bengal', 'Artillery'), ('Bermuda', 'Dockyard'), ('Beryl', 'Coronet'), ('Blue', 'Carbuncle'), ('Botany', 'variable'), ('Briony', 'Lodge')]
+[('Beryl', 'Coronet'), ('Briony', 'Lodge'), ('Copper', 'Beeches'), ('Covent', 'Garden'), ('Ezekiah', 'Hopkins'), ('HEADED', 'LEAGUE'), ('Klux', 'Klan'), ('Ku', 'Klux'), ('Lancaster', 'Gate'), ('San', 'Francisco'), ('Scotland', 'Yard'), ('Spence', 'Munro'), ('Swandam', 'Lane'), ('Von', 'Kramm'), ('West', 'End'), ('Yours', 'faithfully'), ('carte', 'blanche'), ('equinoctial', 'gales'), ('moral', 'retrogression'), ('piteous', 'spectacle')]
 
 1c:
-[('"', 'I'), ("'", 's'), (',', 'I'), (',', 'and'), (',', 'but'), (',"', 'said'), ('.', '"'), ('.', 'I'), ('.', 'It'), ('.', 'The'), ('."', '"'), ('?"', '"'), ('I', 'have'), ('Mr', '.'), ('and', 'I'), ('at', 'the'), ('in', 'the'), ('of', 'the'), ('that', 'I'), ('to', 'the')]
+[(',', 'and'), ('."', '"'), ('.', '"'), ('of', 'the'), ('.', 'I'), ('in', 'the'), ('?"', '"'), ("'", 's'), ('"', 'I'), (',', 'I'), (',', 'but'), ('I', 'have'), ('to', 'the'), (',"', 'said'), ('Mr', '.'), ('.', 'It'), ('that', 'I'), ('at', 'the'), ('.', 'The'), ('and', 'I')]
 
 Explanation: PMI measures how often a bigram appears in relation to its unigrams. Chi-square measures how likely it is that a bigram appears but also how often it doesn't  appear in relation to the expected amount. This can (and in this case does) lead to slightly different results
 
 1d:
-Spearman’s coefficient: 0.9979360165118679
+Spearman’s coefficient: 0.9573529411764706
 
 - EXERCISE 2 -
 1.
