@@ -2,6 +2,8 @@
 # Names: Robert van Timmeren, Kylian de rooij, Remi Thüss
 
 import nltk
+import re
+from operator import itemgetter
 from nltk.corpus import wordnet
 from nltk.stem.wordnet import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
@@ -22,6 +24,7 @@ def nouns_pos_tags(tagged_list):
 		if item[1] == "NN" or item[1] == "NNP" or item[1] == "NNS":
 			noun_list.append(item[0])
 	return noun_list
+
 	
 def noun_lemmatize(noun_list):
 	'''
@@ -33,14 +36,17 @@ def noun_lemmatize(noun_list):
 		lem_nouns.append(lemmatizer.lemmatize(item, wordnet.NOUN))
 	return lem_nouns
 
+
 def noun_synset(lem_nouns):
 	'''
 	returns a list of synsets of lemmatized nouns
 	'''
 	noun_synset = []
 	for item in lem_nouns:
-		noun_synset.append(wordnet.synsets(item, pos='n'))
+		if len(wordnet.synsets(item, pos='n')) > 0:
+			noun_synset.append(wordnet.synsets(item, pos='n'))
 	return noun_synset
+
 
 def hypernymOf(synset1, synset2):
 	""" 
@@ -48,7 +54,6 @@ def hypernymOf(synset1, synset2):
 	synset1, or if they are the same synset.
 	Returns False otherwise. 
 	"""
-	print(synset1, synset2)
 	if synset1 == synset2:
 		return True
 	for hypernym in synset1.hypernyms():
@@ -58,16 +63,54 @@ def hypernymOf(synset1, synset2):
 			return True
 	return False
 
+
 def hypernym_comparison(noun_synsets, words_compare):
+	'''
+	Compares a list of synsets to another lists of synsets to look
+	for references and prints the words and the references.
+	'''
 	for synset in noun_synsets:
 		if isinstance(synset, list):
 			synset = synset[0]
-		i = -1
 		for word in words_compare:
 			if isinstance(word, list):
 				word = word[0]
-			i += 1
-			print(hypernymOf(word, synset))
+			if hypernymOf(word, synset) == True:
+				word = re.sub(r'(Synset\()\'(.*?)(.n.01)\'(\))', r'\2' ,str(word))
+				reference = re.sub(r'(Synset\()\'(.*?)(.n.01)\'(\))', r'\2' ,str(synset))
+				print("{0} --> {1}".format(word, reference))
+
+
+def similarity(syn_list_1, syn_list_2):
+	'''
+	For 2 lists of synsets of words returns a list of their similarity
+	'''
+	i = -1
+	sim = []
+	for syn in syn_list_1:
+		i += 1
+		if isinstance(syn, list):
+			syn = syn[0]
+		if isinstance(syn_list_2[i], list):
+			syn_list_2[i] = syn_list_2[i][0]
+			sim.append(syn.wup_similarity(syn_list_2[i]))
+	return sim
+
+
+def sort_list(li1, li2, li3):
+	'''
+	Combines 3 lists into tuples into a new and sorted lists
+	where li1[0], li2[0], li3[0] are: [(li1[0], li2[0], li3[0])]
+	'''
+	i = -1
+	wordlist = []
+	for item in li1:
+		i += 1
+		tuples = (item, li2[i], li3[i])
+		wordlist.append(tuples)
+	wordlist.sort(key=itemgetter(2), reverse=True)
+	return wordlist
+
 
 def main():
 	text = open('ada_lovelace.txt').read()
@@ -77,11 +120,28 @@ def main():
 	lem_nouns = noun_lemmatize(noun_list)
 	noun_synsets = noun_synset(lem_nouns)
 
-	relative = wordnet.synsets("relative", pos='n')
-	science = wordnet.synsets("science", pos='n')
-	illness = wordnet.synsets("illness", pos='n')
-	words_compare = [relative, science, illness]
+	words_compare = [wordnet.synsets("relative", pos='n'), wordnet.synsets("science", pos='n'), 
+					 wordnet.synsets("illness", pos='n')]
+	
+	print("1a ,b ,c:")
 	hypernym_comparison(noun_synsets, words_compare)
+	print("So there is 1 reference to \"relative\", 2 references to \"science\" and no references to \"illness\"")
+	
+	print("2:")
+	# Kylian code here
+	
+	print("3:")
+	words_1 = ["car", "coast", "food", "journey", "monk", "moon"]
+	words_2 = ["automobile", "shore", "fruit", "car", "slave", "string"]
+	word_similarity = similarity(noun_synset(words_1), noun_synset(words_2))
+	sorted_sim_list = sort_list(words_1, words_2, word_similarity)
+	for y in range(5):
+		print("{0} - {1} --> {2}".format(sorted_sim_list[y][0], sorted_sim_list[y][1] , sorted_sim_list[y][2]))
+	print("As the actual scores are not relevant, the results from the above similarity are quite similar to "
+		  "the results of George Miller and Walter Charles with the exception being food - fruit. This is most "
+		  "likely due to a difference between the hypernym/hyponym structure of wordnet and the way people percieve "
+		  "the difference between these two words.")
+
 
 if __name__ == "__main__":
     main()
