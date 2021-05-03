@@ -1,0 +1,35 @@
+-- Exercise 1 --
+1a ,b ,c:
+science --> science
+science --> science
+relative --> person
+So there is 1 reference to "relative", 2 references to "science" and no references to "illness"
+
+2:
+First 20 nouns by top 25 noun classes: 
+ ['substance', 'person', 'person', 'person', 'state', 'artifact', 'substance', 'artifact', 'person', '', '', 'substance', 'substance', 'person', 'person', 'person', 'activity', 'artifact', 'activity', 'process'] 
+
+Amount of Nouns with a single hypernym: 42
+Examples:
+Word: 'insanity' Hypernym: Synset('insanity.n.01')
+Word: 'programmer' Hypernym: Synset('programmer.n.01')
+Word: 'mathematics' Hypernym: Synset('mathematics.n.01')
+
+Amount of times system had to choose between multiple hypernyms: 63
+Examples:
+Word: 'engine' Hypernyms: [Synset('engine.n.01'), Synset('engine.n.02'), Synset('locomotive.n.01'), Synset('engine.n.04')]
+Word: 'computer' Hypernyms: [Synset('computer.n.01'), Synset('calculator.n.01')]
+Word: 'mother' Hypernyms: [Synset('mother.n.01'), Synset('mother.n.02'), Synset('mother.n.03'), Synset('mother.n.04'), Synset('mother.n.05')]
+
+Average hypernyms per noun: 2.84
+
+3:
+car - automobile --> 1.0
+coast - shore --> 0.9090909090909091
+monk - slave --> 0.6666666666666666
+moon - string --> 0.5
+food - fruit --> 0.2857142857142857
+As the actual scores are not relevant, the results from the above similarity are quite similar to the results of George Miller and Walter Charles with the exception being food - fruit. This is most likely due to a difference between the hypernym/hyponym structure of wordnet and the way people percieve the difference between these two words.
+
+-- Exercise 2 --
+
