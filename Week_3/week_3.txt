@@ -32,4 +32,56 @@ food - fruit --> 0.2857142857142857
 As the actual scores are not relevant, the results from the above similarity are quite similar to the results of George Miller and Walter Charles with the exception being food - fruit. This is most likely due to a difference between the hypernym/hyponym structure of wordnet and the way people percieve the difference between these two words.
 
 -- Exercise 2 --
+2.1:
+Augusta Ada King (organization)
+Lovelace (person)
+Augusta Ada Byron (person)
+Ada Lovelace (person)
+Charles Babbage (person)
+Lovelace (person)
+Lord Byron (person)
+Anne Isabella Byron (person)
+Byron (person)
+Ada (person)
+England
+Ada (person)
+Ada (person)
+Byron (person)
+Ada (location)
+Ada (person)
+Ada (person)
+Charles Babbage (person)
+Luigi Menabrea (person)
+Lovelace (person)
+Babbage (person)
+Ada (person)
 
+2.2:
+The output is definitely not correct for some entities with the 7 classes model (for example). Especially the organization entity seems to be used a lot when it shouldn't.
+Augusta Ada King (organization)
+Lovelace (person)
+December 1815 27 November 1852 (date)
+Augusta Ada Byron (organization)
+Ada Lovelace (person)
+Charles Babbage (person)
+Analytical Engine (organization)
+Lovelace (person)
+December 1815 (date)
+Lord Byron (person)
+Anne Isabella Byron (person)
+Byron (person)
+Ada (organization)
+England (location)
+Ada (organization)
+Byron (person)
+Ada (organization)
+Ada (organization)
+Charles Babbage (person)
+Babbage (person)
+Analytical Engine (organization)
+1843 (date)
+Luigi Menabrea (person)
+Lovelace (person)
+
+2.3
+As discussed during the lab, I made a Wordnet NER and a Stanford NER. The Wordnet recognizer determines an entity based on the best similarity with the given entities.
