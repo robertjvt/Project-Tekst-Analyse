@@ -54,7 +54,11 @@ def wordnet_ner(lem_nouns):
 def main():
     with open('ada_lovelace.txt', 'r') as file:
         data = file.read()
-    stanford_entities = stanford_ner(data) 
+    stanford_entities = stanford_ner(data)
+    print(stanford_entities)
+    for item in stanford_entities:
+        if item[1] != 'O':
+            print(item)
     tokens = nltk.word_tokenize(data)
     pos_tagged_list = exercise_1.pos_tags(tokens)
     noun_list = exercise_1.nouns_pos_tags(pos_tagged_list)
