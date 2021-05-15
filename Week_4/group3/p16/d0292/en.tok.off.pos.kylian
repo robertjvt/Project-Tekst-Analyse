@@ -1,0 +1,100 @@
+1 4 1001 The DT
+5 11 1002 global JJ
+12 17 1003 human JJ
+18 24 1004 rights NNS
+25 37 1005 organization NN
+37 38 1006 , ,
+39 46 1007 Amnesty NNP ORG https://en.wikipedia.org/wiki/Amnesty_International
+47 60 1008 International NNP ORG https://en.wikipedia.org/wiki/Amnesty_International
+61 65 1009 says VBZ
+66 70 1010 that IN
+71 74 1011 HIV NNP
+75 78 1012 and CC
+79 83 1013 AIDS NNP
+84 87 1014 are VBP
+88 99 1015 devastating VBG
+100 104 1016 poor JJ
+105 110 1017 women NNS
+111 114 1018 and CC
+115 123 1019 children NNS
+124 126 1020 in IN
+127 132 1021 South NNP COU https://en.wikipedia.org/wiki/South_Africa
+133 139 1022 Africa NNP COU https://en.wikipedia.org/wiki/South_Africa
+139 140 1023 . .
+142 144 2001 In IN
+145 146 2002 a DT
+147 153 2003 report NN
+154 162 2004 released VBN
+163 165 2005 in IN
+166 172 2006 London NNP CIT https://en.wikipedia.org/wiki/London
+172 173 2007 , ,
+174 181 2008 Amnesty NNP ORG https://en.wikipedia.org/wiki/Amnesty_International
+182 186 2009 says VBZ
+187 191 2010 that IN
+192 199 2011 poverty NN
+199 200 2012 , ,
+201 207 2013 gender NN
+208 218 2014 inequality NN
+219 222 2015 and CC
+223 235 2016 unemployment NN
+236 242 2017 remain VBP
+243 248 2018 major JJ
+249 261 2019 contributing VBG
+262 269 2020 factors NNS
+269 270 2021 . .
+272 275 3001 Pop NNP
+276 282 3002 Singer NNP
+283 288 3003 Annie NNP PER https://en.wikipedia.org/wiki/Annie_Lennox
+289 295 3004 Lennox NNP PER https://en.wikipedia.org/wiki/Annie_Lennox
+296 298 3005 is VBZ
+299 311 3006 highlighting VBG
+312 315 3007 the DT
+316 321 3008 issue NN
+322 326 3009 with IN
+327 330 3010 her PRP$
+331 334 3011 new JJ
+335 342 3012 charity NN
+343 347 3013 tune NN
+348 354 3014 called VBN
+355 356 3015 " CD
+356 360 3016 Sing NNP
+360 361 3017 . .
+361 362 3018 " NN
+364 366 4001 On IN
+367 368 4002 a DT
+369 375 4003 recent JJ
+376 380 4004 trip NN
+381 383 4005 to TO
+384 390 4006 Africa NNP COU https://en.wikipedia.org/wiki/Africa
+390 391 4007 , ,
+392 395 4008 she PRP
+396 400 4009 says VBZ
+401 404 4010 she PRP
+405 412 4011 learned VBD
+413 416 4012 how WRB
+417 420 4013 the DT
+421 428 4014 disease NN
+429 436 4015 affects VBZ
+437 442 4016 women NNS
+443 445 4017 -- :
+446 456 4018 especially RB
+457 465 4019 pregnant JJ
+466 473 4020 mothers NNS
+474 477 4021 and CC
+478 483 4022 their PRP$
+484 490 4023 unborn JJ
+491 499 4024 children NNS
+500 502 4025 -- :
+503 507 4026 much RB
+508 512 4027 more JJR
+513 517 4028 than IN
+518 520 4029 it PRP
+521 525 4030 does VBZ
+526 529 4031 men NNS
+529 530 4032 . .
+531 534 5001 VOA NNP ENT https://en.wikipedia.org/wiki/Voice_of_America
+534 536 5002 's POS
+537 542 5003 Mandy NNP PER
+543 548 5004 Clark NNP PER
+549 556 5005 reports NNS
+556 557 5006 . .
