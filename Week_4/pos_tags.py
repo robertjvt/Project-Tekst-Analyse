@@ -16,13 +16,19 @@ def main():
 	        if name == "en.tok.off":
 	        	text = open(os.path.join(root, name)).readlines()
 	        	f = open(os.path.join(root) + "/en.tok.off.pos", "w")
+	        	tokens = []
 	        	for line in text:
                         	line = line.rstrip()
-                        	token = line.split()[3]
-                        	token = nltk.word_tokenize(token)
-                        	pos_tag = nltk.pos_tag(token)
-                        	output = line + ' ' + pos_tag[0][1] + '\n'
-                        	f.write(output)
+                        	print(line)
+                        	tokens.append(line.split()[3])
+	        	print(tokens)
+	        	pos_tags = nltk.pos_tag(tokens)
+	        	print(pos_tags)
+	        	for line in text:
+                            output = line.rstrip() + ' ' + pos_tags[0][1] + '\n'
+                            pos_tags.pop(0)
+                            f.write(output)
+                            print()
 	        	f.close()
                         	
 
