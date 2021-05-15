@@ -40,7 +40,7 @@
 229 232 3006 the DT ORG https://en.wikipedia.org/wiki/JDRF
 233 241 3007 Juvenile NNP ORG https://en.wikipedia.org/wiki/JDRF
 242 250 3008 Diabetes NNP ORG https://en.wikipedia.org/wiki/JDRF
-251 261 3009 Foundation NNPORG https://en.wikipedia.org/wiki/JDRF
+251 261 3009 Foundation NNP ORG https://en.wikipedia.org/wiki/JDRF
 261 262 3010 , ,
 263 268 3011 gives VBZ
 269 273 3012 hope NN
