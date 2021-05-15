@@ -1,18 +1,18 @@
-4 11 1001 Pacific NNP
-12 17 1002 First NNP
-18 27 1003 Financial NNP
-28 33 1004 Corp. NNP
+4 11 1001 Pacific NNP ORG https://en.wikipedia.org/wiki/First_Pacific
+12 17 1002 First NNP ORG https://en.wikipedia.org/wiki/First_Pacific
+18 27 1003 Financial NNP ORG https://en.wikipedia.org/wiki/First_Pacific
+28 33 1004 Corp. NNP ORG https://en.wikipedia.org/wiki/First_Pacific
 34 38 1005 said VBD
 39 51 1006 shareholders NNS
 52 60 1007 approved VBD
 61 64 1008 its PRP$
 65 76 1009 acquisition NN
 77 79 1010 by IN
-80 85 1011 Royal NNP
-86 93 1012 Trustco NNP
-94 98 1013 Ltd. NNP
+80 85 1011 Royal NNP ORG https://en.wikipedia.org/wiki/Royal_Trust_(Canada)
+86 93 1012 Trustco NNP ORG https://en.wikipedia.org/wiki/Royal_Trust_(Canada)
+94 98 1013 Ltd. NNP ORG https://en.wikipedia.org/wiki/Royal_Trust_(Canada)
 99 101 1014 of IN
-102 109 1015 Toronto NNP
+102 109 1015 Toronto NNP CIT https://en.wikipedia.org/wiki/Toronto
 110 113 1016 for IN
 114 115 1017 $ $
 115 117 1018 27 CD

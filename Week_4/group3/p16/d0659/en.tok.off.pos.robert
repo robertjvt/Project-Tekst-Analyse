@@ -10,7 +10,7 @@
 50 52 1010 10 CD
 53 59 1011 people NNS
 60 62 1012 in IN
-63 69 1013 Kirkuk NNP
+63 69 1013 Kirkuk NNP CIT https://en.wikipedia.org/wiki/Kirkuk
 69 70 1014 . .
 72 78 2001 Police NNP
 79 83 2002 said VBD
@@ -48,7 +48,7 @@
 272 278 4002 remain VBP
 279 283 4003 high JJ
 284 286 4004 in IN
-287 293 4005 Kirkuk NNP
+287 293 4005 Kirkuk NNP CIT https://en.wikipedia.org/wiki/Kirkuk
 293 294 4006 , ,
 295 300 4007 whose WP$
 301 307 4008 status NN
@@ -83,9 +83,9 @@
 450 457 6008 country NN
 457 458 6009 , ,
 459 462 6010 but CC
-463 471 6011 al-Qaida JJ
+463 471 6011 al-Qaida JJ ORG https://en.wikipedia.org/wiki/Al-Qaeda
 472 474 6012 in IN
-475 479 6013 Iraq NNP
+475 479 6013 Iraq NNP COU https://en.wikipedia.org/wiki/Iraq
 480 489 6014 maintains VBZ
 490 491 6015 a DT
 492 500 6016 foothold NN

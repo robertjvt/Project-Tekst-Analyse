@@ -16,15 +16,15 @@
 81 88 1016 rebuild VB
 89 92 1017 and CC
 93 99 1018 reform VB
-100 105 1019 Haiti NNP
+100 105 1019 Haiti NNP COU https://en.wikipedia.org/wiki/Haiti
 105 107 1020 's POS
 108 117 1021 education NN
 118 124 1022 system NN
 124 125 1023 . .
 127 130 2001 The DT
-131 145 2002 Inter-American JJ
-146 157 2003 Development NNP
-158 162 2004 Bank NNP
+131 145 2002 Inter-American JJ ORG https://en.wikipedia.org/wiki/Inter-American_Development_Bank
+146 157 2003 Development NNP ORG https://en.wikipedia.org/wiki/Inter-American_Development_Bank
+158 162 2004 Bank NNP ORG https://en.wikipedia.org/wiki/Inter-American_Development_Bank
 163 165 2005 is VBZ
 166 173 2006 leading VBG
 174 175 2007 a DT
@@ -86,19 +86,19 @@
 503 505 4021 in IN
 506 513 4022 classes NNS
 513 514 4023 . .
-516 523 5001 Haitian JJ
-524 533 5002 President NNP
-534 538 5003 Rene NNP
-539 545 5004 Preval NNP
+516 523 5001 Haitian JJ PER https://en.wikipedia.org/wiki/Ren%C3%A9_Pr%C3%A9val
+524 533 5002 President NNP PER https://en.wikipedia.org/wiki/Ren%C3%A9_Pr%C3%A9val
+534 538 5003 Rene NNP PER https://en.wikipedia.org/wiki/Ren%C3%A9_Pr%C3%A9val
+539 545 5004 Preval NNP PER https://en.wikipedia.org/wiki/Ren%C3%A9_Pr%C3%A9val
 546 555 5005 announced VBD
 556 559 5006 the DT
 560 564 5007 plan NN
 565 573 5008 Saturday NNP
 574 579 5009 along IN
 580 584 5010 with IN
-585 588 5011 IDB NNP
-589 598 5012 President NNP
-599 603 5013 Luis NNP
-604 611 5014 Alberto NNP
-612 618 5015 Moreno NNP
+585 588 5011 IDB NNP PER https://en.wikipedia.org/wiki/Luis_Alberto_Moreno
+589 598 5012 President NNP PER https://en.wikipedia.org/wiki/Luis_Alberto_Moreno
+599 603 5013 Luis NNP PER https://en.wikipedia.org/wiki/Luis_Alberto_Moreno
+604 611 5014 Alberto NNP PER https://en.wikipedia.org/wiki/Luis_Alberto_Moreno
+612 618 5015 Moreno NNP PER https://en.wikipedia.org/wiki/Luis_Alberto_Moreno
 618 619 5016 . .

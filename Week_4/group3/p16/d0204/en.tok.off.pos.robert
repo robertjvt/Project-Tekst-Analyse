@@ -28,11 +28,11 @@
 146 153 2006 Journal NNP
 154 156 2007 of IN
 157 160 2008 the DT
-161 169 2009 American NNP
-170 177 2010 Medical NNP
-178 189 2011 Association NNP
+161 169 2009 American NNP ORG https://en.wikipedia.org/wiki/American_Medical_Association
+170 177 2010 Medical NNP ORG https://en.wikipedia.org/wiki/American_Medical_Association
+178 189 2011 Association NNP ORG https://en.wikipedia.org/wiki/American_Medical_Association
 190 191 2012 [ NNP
-191 195 2013 JAMA NNP
+191 195 2013 JAMA NNP ORG https://en.wikipedia.org/wiki/American_Medical_Association
 195 196 2014 ] NNP
 197 202 2015 finds VBZ
 203 212 2016 treatment NN
@@ -51,7 +51,7 @@
 289 294 2029 heart NN
 295 305 2030 conditions NNS
 305 306 2031 . .
-307 310 3001 VOA NNP
+307 310 3001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
 310 312 3002 's POS
 313 317 3003 Alex NNP
 318 328 3004 Villarreal NNP

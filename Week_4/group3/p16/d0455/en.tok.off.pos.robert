@@ -1,4 +1,4 @@
-0 7 1001 Burundi NNP
+0 7 1001 Burundi NNP COU https://en.wikipedia.org/wiki/Burundi
 7 9 1002 's POS
 10 14 1003 army NN
 15 19 1004 says VBZ
@@ -7,9 +7,9 @@
 30 32 1007 at IN
 33 38 1008 least JJS
 39 41 1009 17 CD
-42 50 1010 National NNP
-51 61 1011 Liberation NNP
-62 68 1012 Forces NNP
+42 50 1010 National NNP ORG https://en.wikipedia.org/wiki/National_Forces_of_Liberation
+51 61 1011 Liberation NNP ORG https://en.wikipedia.org/wiki/National_Forces_of_Liberation
+62 68 1012 Forces NNP ORG https://en.wikipedia.org/wiki/National_Forces_of_Liberation
 69 74 1013 rebel NN
 75 83 1014 fighters NNS
 84 86 1015 in IN
@@ -40,7 +40,7 @@
 212 215 2022 the DT
 216 223 2023 capital NN
 223 224 2024 , ,
-225 234 2025 Bujumbura NNP
+225 234 2025 Bujumbura NNP CIT https://en.wikipedia.org/wiki/Bujumbura
 235 238 2026 The DT
 239 249 2027 government NN
 250 254 2028 says VBZ
@@ -59,7 +59,7 @@
 324 328 2041 them PRP
 328 329 2042 . .
 330 333 3001 The DT
-334 337 3002 FNL NNP
+334 337 3002 FNL NNP ORG https://en.wikipedia.org/wiki/National_Forces_of_Liberation
 338 344 3003 signed VBD
 345 346 3004 a DT
 347 352 3005 peace NN

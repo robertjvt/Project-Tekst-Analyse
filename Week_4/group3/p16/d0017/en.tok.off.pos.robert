@@ -23,9 +23,9 @@
 105 108 2006 the DT
 109 122 2007 international JJ
 123 128 2008 group NN
-129 133 2009 Make NNP
-134 139 2010 Roads NNP
-140 144 2011 Safe NNP
+129 133 2009 Make NNP ORG https://en.wikipedia.org/wiki/Make_Roads_Safe
+134 139 2010 Roads NNP ORG https://en.wikipedia.org/wiki/Make_Roads_Safe
+140 144 2011 Safe NNP ORG https://en.wikipedia.org/wiki/Make_Roads_Safe
 144 145 2012 , ,
 146 147 2013 a DT
 148 157 2014 worldwide JJ
@@ -43,8 +43,8 @@
 210 215 3003 March NNP
 216 221 3004 2008, CD
 222 225 3005 the DT
-226 232 3006 United NNP
-233 240 3007 Nations NNPS
+226 232 3006 United NNP ORG https://en.wikipedia.org/wiki/United_Nations
+233 240 3007 Nations NNPS ORG https://en.wikipedia.org/wiki/United_Nations
 241 246 3008 plans VBZ
 247 249 3009 to TO
 250 254 3010 take VB
@@ -59,7 +59,7 @@
 295 300 3019 calls NNS
 301 304 3020 for IN
 305 306 3021 a DT
-307 311 3022 U.N. NNP
+307 311 3022 U.N. NNP ORG https://en.wikipedia.org/wiki/United_Nations
 312 322 3023 conference NN
 323 325 3024 to TO
 326 332 3025 tackle VB
@@ -72,7 +72,7 @@
 364 367 3032 and CC
 368 376 3033 injuries NNS
 376 377 3034 . .
-378 381 4001 VOA NNP
+378 381 4001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
 381 383 4002 's POS
 384 391 4003 Tetiana NNP
 392 401 4004 Koprowicz NNP
@@ -86,4 +86,4 @@
 438 444 4012 safety NN
 445 447 4013 in IN
 448 451 4014 the DT
-452 456 4015 U.S. NNP
+452 456 4015 U.S. NNP COU https://en.wikipedia.org/wiki/United_States

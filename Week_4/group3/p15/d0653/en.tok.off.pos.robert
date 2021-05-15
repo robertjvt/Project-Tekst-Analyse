@@ -6,8 +6,8 @@
 35 41 1006 Monday NNP
 42 44 1007 in IN
 45 48 1008 the DT
-49 54 1009 Paris NNP CIT https://en.wikipedia.org/wiki/Paris
-55 61 1010 region NN
+49 54 1009 Paris NNP COU https://en.wikipedia.org/wiki/%C3%8Ele-de-France
+55 61 1010 region NN COU https://en.wikipedia.org/wiki/%C3%8Ele-de-France
 62 65 1011 and CC
 66 72 1012 nearby JJ
 73 81 1013 Normandy NNP COU https://en.wikipedia.org/wiki/Normandy

@@ -1,6 +1,6 @@
 0 3 1001 The DT
-4 12 1002 U.S.-led JJ
-13 22 1003 coalition NN
+4 12 1002 U.S.-led JJ ORG https://en.wikipedia.org/wiki/Multi-National_Force_%E2%80%93_Iraq
+13 22 1003 coalition NN ORG https://en.wikipedia.org/wiki/Multi-National_Force_%E2%80%93_Iraq
 23 27 1004 said VBD
 28 30 1005 in IN
 31 32 1006 a DT
@@ -14,7 +14,7 @@
 77 86 1014 militants NNS
 87 89 1015 in IN
 90 98 1016 southern JJ
-99 110 1017 Afghanistan NNP
+99 110 1017 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
 110 111 1018 . .
 113 116 2001 The DT
 117 123 2002 Afghan NNP
@@ -26,11 +26,11 @@
 156 165 2008 militants NNS
 166 172 2009 Sunday NNP
 173 175 2010 in IN
-176 181 2011 Qalat NNP
-182 190 2012 district NN
+176 181 2011 Qalat NNP CIT https://en.wikipedia.org/wiki/Qalat_District
+182 190 2012 district NN CIT https://en.wikipedia.org/wiki/Qalat_District
 191 193 2013 of IN
-194 199 2014 Zabul NNP
-200 208 2015 province NN
+194 199 2014 Zabul NNP COU https://en.wikipedia.org/wiki/Zabul_Province
+200 208 2015 province NN COU https://en.wikipedia.org/wiki/Zabul_Province
 208 209 2016 . .
 211 214 3001 The DT
 215 224 3002 statement NN

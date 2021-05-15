@@ -2,11 +2,11 @@
 5 10 1002 month NN
 10 11 1003 , ,
 12 13 1004 a DT
-14 20 1005 United NNP
-21 28 1006 Nations NNP
+14 20 1005 United NNP ORG https://en.wikipedia.org/wiki/United_Nations
+21 28 1006 Nations NNP ORG https://en.wikipedia.org/wiki/United_Nations
 29 39 1007 conference NN
 40 42 1008 in IN
-43 47 1009 Rome NNP
+43 47 1009 Rome NNP CIT https://en.wikipedia.org/wiki/Rome
 48 57 1010 discussed VBD
 58 61 1011 the DT
 62 67 1012 world NN
@@ -56,9 +56,9 @@
 284 289 3022 highs NNS
 289 290 3023 . .
 293 296 4001 The DT
-297 308 4002 Philippines NNPS
+297 308 4002 Philippines NNPS COU https://en.wikipedia.org/wiki/Philippines
 309 312 4003 and CC
-313 318 4004 Haiti NNP
+313 318 4004 Haiti NNP COU https://en.wikipedia.org/wiki/Haiti
 318 319 4005 , ,
 320 325 4006 among IN
 326 331 4007 other JJ
@@ -75,8 +75,8 @@
 389 399 5005 immigrants NNS
 400 402 5006 in IN
 403 406 5007 the DT
-407 413 5008 United NNP
-414 420 5009 States NNPS
+407 413 5008 United NNP COU https://en.wikipedia.org/wiki/United_States
+414 420 5009 States NNPS COU https://en.wikipedia.org/wiki/United_States
 421 424 5010 are VBP
 425 432 5011 sending VBG
 433 437 5012 food NN
@@ -86,7 +86,7 @@
 456 460 5016 back RB
 461 465 5017 home NN
 465 466 5018 . .
-468 471 6001 VOA NNP
+468 471 6001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
 471 473 6002 's POS
 474 481 6003 Deborah NNP
 482 487 6004 Block NNP

@@ -4,8 +4,8 @@
 18 24 1004 rights NNS
 25 37 1005 organization NN
 37 38 1006 , ,
-39 46 1007 Amnesty NNP
-47 60 1008 International NNP
+39 46 1007 Amnesty NNP ORG https://en.wikipedia.org/wiki/Amnesty_International
+47 60 1008 International NNP ORG https://en.wikipedia.org/wiki/Amnesty_International
 61 65 1009 says VBZ
 66 70 1010 that IN
 71 74 1011 HIV NNP
@@ -18,17 +18,17 @@
 111 114 1018 and CC
 115 123 1019 children NNS
 124 126 1020 in IN
-127 132 1021 South NNP
-133 139 1022 Africa NNP
+127 132 1021 South NNP COU https://en.wikipedia.org/wiki/South_Africa
+133 139 1022 Africa NNP COU https://en.wikipedia.org/wiki/South_Africa
 139 140 1023 . .
 142 144 2001 In IN
 145 146 2002 a DT
 147 153 2003 report NN
 154 162 2004 released VBN
 163 165 2005 in IN
-166 172 2006 London NNP
+166 172 2006 London NNP CIT https://en.wikipedia.org/wiki/London
 172 173 2007 , ,
-174 181 2008 Amnesty NNP
+174 181 2008 Amnesty NNP ORG https://en.wikipedia.org/wiki/Amnesty_International
 182 186 2009 says VBZ
 187 191 2010 that IN
 192 199 2011 poverty NN
@@ -44,8 +44,8 @@
 269 270 2021 . .
 272 275 3001 Pop NNP
 276 282 3002 Singer NNP
-283 288 3003 Annie NNP
-289 295 3004 Lennox NNP
+283 288 3003 Annie NNP PER https://en.wikipedia.org/wiki/Annie_Lennox
+289 295 3004 Lennox NNP PER https://en.wikipedia.org/wiki/Annie_Lennox
 296 298 3005 is VBZ
 299 311 3006 highlighting VBG
 312 315 3007 the DT
@@ -65,7 +65,7 @@
 369 375 4003 recent JJ
 376 380 4004 trip NN
 381 383 4005 to TO
-384 390 4006 Africa NNP
+384 390 4006 Africa NNP COU https://en.wikipedia.org/wiki/Africa
 390 391 4007 , ,
 392 395 4008 she PRP
 396 400 4009 says VBZ
@@ -92,7 +92,7 @@
 521 525 4030 does VBZ
 526 529 4031 men NNS
 529 530 4032 . .
-531 534 5001 VOA NNP
+531 534 5001 VOA NNP ORG https://en.wikipedia.org/wiki/Africa
 534 536 5002 's POS
 537 542 5003 Mandy NNP
 543 548 5004 Clark NNP
