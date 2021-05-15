@@ -1,7 +1,4 @@
 import os 
-import fnmatch
-
-rootdir = 'group3/'
 
 annotator1 = []
 annotator2 = []
