@@ -19,7 +19,7 @@
 115 123 1019 children NNS
 124 126 1020 in IN
 127 132 1021 South NNP COU https://en.wikipedia.org/wiki/South_Africa
-133 139 1022 Africa NNPCOU https://en.wikipedia.org/wiki/South_Africa
+133 139 1022 Africa NNP COU https://en.wikipedia.org/wiki/South_Africa
 139 140 1023 . .
 142 144 2001 In IN
 145 146 2002 a DT
