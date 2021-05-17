@@ -1,5 +1,6 @@
 import os
 from nltk.metrics import ConfusionMatrix
+from sklearn.metrics import classification_report
 
 annotator1 = []
 annotator2 = []
@@ -57,6 +58,6 @@ for i in range(len(ann_labels1)):
 '''for i in range(len(clean_labels1)):
     print(clean_labels1[i], clean_labels2[i], clean_labels3[i])'''
 
-print(ConfusionMatrix(ann_labels1, ann_labels2))
 print(ConfusionMatrix(clean_labels1, clean_labels2))
+print(classification_report(clean_labels1, clean_labels2, digits=3))
 
