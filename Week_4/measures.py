@@ -32,12 +32,17 @@ def clean_bool_labels(bl1, bl2):
     This function clears the boolean labels from instances where both lists
     have 'False' at the same index.
     '''
-    cbl1, cbl2 = [], []
+    cblt1, cblt2 = [], []
+    cblf1, cblf2 = [], []
     for i in range(len(bl1)):
         if bl1[i] == 'True' or bl2[i] == 'True':
-            cbl1.append(bl1[i])
-            cbl2.append(bl2[i])
-    return cbl1, cbl2
+            cblt1.append(bl1[i])
+            cblt2.append(bl2[i])
+    for i in range(len(bl1)):
+        if bl1[i] == 'False' or bl2[i] == 'False':
+            cblf1.append(bl1[i])
+            cblf2.append(bl2[i])
+    return cblt1, cblt2, cblf1, cblf2
 
 
 def give_label(root, name, anno, labels, bool_labels):
@@ -89,12 +94,14 @@ def word_labels(file1, file2):
     return labels1, labels2, bool_labels1, bool_labels2
 
 
-def print_agreement(cl1, cl2, cbl1, cbl2):
+def print_agreement(cl1, cl2, cblt1, cblt2, cblf1, cblf2):
     '''
     This function prints two classification reports and a confusion matrix
     '''
-    print('Agreement on finding entities:')
-    print(classification_report(cbl1, cbl2, digits=3))
+    print('Agreement on finding interesting entities:')
+    print(classification_report(cblt1, cblt2, digits=3))
+    print('Agreement on finding uninteresting entities:')
+    print(classification_report(cblf1, cblf2, digits=3))
     print('Agreement on classifying entities:')
     print(classification_report(cl1, cl2, digits=3))
     print('Confusion matrix:')
@@ -104,8 +111,8 @@ def print_agreement(cl1, cl2, cbl1, cbl2):
 def main(file1, file2):
     labels1, labels2, bool_labels1, bool_labels2, = word_labels(file1, file2)
     cl1, cl2 = clean_labels(labels1, labels2)
-    cbl1, cbl2 = clean_bool_labels(bool_labels1, bool_labels2)
-    print_agreement(cl1, cl2, cbl1, cbl2)
+    cblt1, cblt2, cblf1, cblf2 = clean_bool_labels(bool_labels1, bool_labels2)
+    print_agreement(cl1, cl2, cblt1, cblt2, cblf1, cblf2)
 
 
 if len(sys.argv) != 3:
