@@ -60,7 +60,7 @@
 352 353 4017 . .
 354 361 5001 Jackson NNP PER https://en.wikipedia.org/wiki/Michael_Jackson
 361 363 5002 's POS
-364 373 5003 Neverland NNPENT https://en.wikipedia.org/wiki/Neverland_Ranch
+364 373 5003 Neverland NNP ENT https://en.wikipedia.org/wiki/Neverland_Ranch
 374 379 5004 Ranch NNP ENT https://en.wikipedia.org/wiki/Neverland_Ranch
 380 382 5005 is VBZ
 383 384 5006 a DT
