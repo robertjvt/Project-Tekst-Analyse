@@ -73,7 +73,6 @@ def main():
     
     print('5.')
     for noun in first_nouns:
-        print(noun)
         print(noun[0], " : ", lesk(noun[1], noun[0]).definition())
     print("\nIn this case it get about 2/3 words right. Especially words that are very context specific like chain and David"\
     " seem to be difficult, however it does get some tricky cases right like the word chicken. In this case it was"\
@@ -82,9 +81,7 @@ def main():
           " differs too much in context, the wrong definition will be found.\n")
     print("7.\nI did expect that some words would be correct, when they were not. For instance 'David' is placed in the correct context"\
           " and was still given a wrong definition.\n")
-    
-    print('8.')
-    print("Disambiguation can help assign the right meaning of a word to that word. This can help link to the right Wikipedia"\
+    print("8.\nDisambiguation can help assign the right meaning of a word to that word. This can help link to the right Wikipedia"\
     " page so that for example the sentence \"I am going to school\" will link to the institute and not to the page related to fish.")
 
 if __name__ == '__main__':
