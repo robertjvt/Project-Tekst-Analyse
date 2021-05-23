@@ -63,7 +63,7 @@ def synsets(noun_list):
               words_10 += 1
     print_1to8(noun_count, us_words, ps_words, total_ps_senses, sense_list)
     return synset_list, nouns_list
-
+  
 
 def main():
     wiki = wikipedia.page('Colonel Sanders')
@@ -73,18 +73,19 @@ def main():
     
     print('5.')
     for noun in first_nouns:
+        print(noun)
         print(noun[0], " : ", lesk(noun[1], noun[0]).definition())
     print("\nIn this case it get about 2/3 words right. Especially words that are very context specific like chain and David"\
-    "seem to be difficult, however it does get some tricky cases right like the word chicken. In this case it was"\
-    "sindeed meant as the food chicken and not the animal itself.")
-    print('6.')
-    
-    print('7.')
-    print("""  """)
+    " seem to be difficult, however it does get some tricky cases right like the word chicken. In this case it was"\
+    " indeed meant as the food chicken and not the animal itself.")
+    print("6.\nNo, this did not happen. Yes it can, depending on the sentence that belongs to the word. If the word around the main word"\
+          " differs too much in context, the wrong definition will be found.\n")
+    print("7.\nI did expect that some words would be correct, when they were not. For instance 'David' is placed in the correct context"\
+          " and was still given a wrong definition.\n")
     
     print('8.')
     print("Disambiguation can help assign the right meaning of a word to that word. This can help link to the right Wikipedia"\
-    "page so that for example the sentence \"I am going to school\" will link to the institute and not to the page related to fish.")
+    " page so that for example the sentence \"I am going to school\" will link to the institute and not to the page related to fish.")
 
 if __name__ == '__main__':
     main()
