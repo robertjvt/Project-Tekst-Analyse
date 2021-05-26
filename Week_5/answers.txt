@@ -30,7 +30,10 @@ name  :  give or make a list of; name individually; give the names of
 In this case it get about 2/3 words right. Especially words that are very context specific like chain and David seem to be difficult, however it does get some tricky cases right like the word chicken. In this case it was indeed meant as the food chicken and not the animal itself.
 
 6.
-No, this did not happen. Yes it can, depending on the sentence that belongs to the word. If the word around the main word differs too much in context, the wrong definition will be found.
+No, this did not happen in question 5. However, it can happen, depending on the sentence that belongs to the word. If the word around the main word
+differs too much in context, the wrong definition will be found. If you look at the same words over the entire Wikipedia page,
+there are a lot of words that do differ in definition. The function count_nouns can be used to look at all the nouns that have
+multiple occurances and their definitions. Some of these definitions differ.
 
 7.
 I did expect that some words would be correct, when they were not. For instance 'David' is placed in the correct context and was still given a wrong definition.
