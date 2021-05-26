@@ -1,0 +1,39 @@
+Group:
+Kylian de Rooij, Remi Thüss and Robert van Timmeren
+
+1.
+There were a total of 1262 nouns in the text. 451 of those were unisemous and 811 were polysemous. The proportion of polysemous nouns is 0.64.
+
+2.
+This page contains multiple polysemous words.
+
+3.
+The average number of senses per polysemous words is 5.37.
+
+4.
+Count for different number of senses (format: nr of senses:count):
+
+Counter({1: 451, 2: 198, 4: 132, 3: 107, 5: 72, 6: 64, 9: 48, 7: 43, 8: 36, 10: 35, 13: 19, 11: 18, 12: 17, 14: 10, 15: 8, 26: 1, 16: 1, 17: 1, 30: 1})
+
+5.
+David  :  (Old Testament) the 2nd king of the Israelites; as a young shepherd he fought Goliath (a giant Philistine warrior) and killed him by hitting him in the head with a stone flung from a sling; he united Israel with Jerusalem as its capital; many of the Psalms are attributed to David (circa 1000-962 BC)
+food  :  any substance that can be metabolized by an animal to give energy and build tissue
+chicken  :  the flesh of a chicken used for food
+chain  :  connect or arrange into a chain by linking
+Chicken  :  the flesh of a chicken used for food
+company  :  crew of a ship including the officers; the whole force or personnel of a ship
+brand  :  to accuse or condemn or openly or formally or brand as disgraceful
+ambassador  :  a diplomat of the highest rank; accredited as representative from one country to another
+symbol  :  an arbitrary sign (written or printed) that has acquired a conventional significance
+name  :  give or make a list of; name individually; give the names of
+
+In this case it get about 2/3 words right. Especially words that are very context specific like chain and David seem to be difficult, however it does get some tricky cases right like the word chicken. In this case it was indeed meant as the food chicken and not the animal itself.
+
+6.
+No, this did not happen. Yes it can, depending on the sentence that belongs to the word. If the word around the main word differs too much in context, the wrong definition will be found.
+
+7.
+I did expect that some words would be correct, when they were not. For instance 'David' is placed in the correct context and was still given a wrong definition.
+
+8.
+Disambiguation can help assign the right meaning of a word to that word. This can help link to the right Wikipedia page so that for example the sentence "I am going to school" will link to the institute and not to the page related to fish.
