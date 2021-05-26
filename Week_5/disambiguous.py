@@ -36,6 +36,7 @@ def synsets(noun_list):
     total_ps_senses = 0
     words_10 = 0
     nouns_list = []
+    full_nouns_list = []
     synset_list, sense_list, diff_senses = [], [], []
     for noun in noun_list:
         synsets = wordnet.synsets(noun[0], 'n')
@@ -50,17 +51,32 @@ def synsets(noun_list):
             total_ps_senses += len(synsets)
             ps_words += 1
             if words_10 < 10:
-              nouns_list.append(noun)
-              words_10 += 1
-    return synset_list, nouns_list, noun_count, us_words, ps_words, total_ps_senses, sense_list
-  
+                nouns_list.append(noun)
+                words_10 += 1
+            if words_10 != 'loop':
+                full_nouns_list.append(noun)
+    return synset_list, nouns_list, noun_count, us_words, ps_words, total_ps_senses, sense_list, full_nouns_list
+
+
+def count_nouns(full_nouns_list):
+    noun_definitions = {}
+    for noun in full_nouns_list:
+        if noun[0] in noun_definitions.keys():
+            noun_definitions[noun[0]].append(noun[1])
+        else:
+            noun_definitions[noun[0]] = [noun[1]]
+    for key, values in noun_definitions.items():
+        if len(values) > 1:
+            for value in values:
+                print(key, " : ", lesk(value, key).definition())
+            print("\n")
+
 
 def main():
     wiki = wikipedia.page('Colonel Sanders')
     content = wiki.content
     noun_list = noun_finder(content)
-    synset_list, first_nouns, noun_count, us_words, ps_words, total_ps_senses, sense_list = synsets(noun_list)
-    
+    synset_list, first_nouns, noun_count, us_words, ps_words, total_ps_senses, sense_list, full_nouns_list = synsets(noun_list)
     print('1.\nThere were a total of {0} nouns in the text. {1} of those were unisemous and {2} were polysemous. '\
           'The proportion of polysemous nouns is {3:.2f}.\n'.format(noun_count, us_words, ps_words, ps_words/noun_count))
     if ps_words == 1:
@@ -78,8 +94,10 @@ def main():
     print("\nIn this case it get about 2/3 words right. Especially words that are very context specific like chain and David"\
     " seem to be difficult, however it does get some tricky cases right like the word chicken. In this case it was"\
     " indeed meant as the food chicken and not the animal itself.\n")
-    print("6.\nNo, this did not happen. Yes it can, depending on the sentence that belongs to the word. If the word around the main word"\
-          " differs too much in context, the wrong definition will be found.\n")
+    print("6.\nNo, this did not happen in question 5. However, it can happen, depending on the sentence that belongs to the word. If the word around the main word"\
+          " differs too much in context, the wrong definition will be found. If you look at the same words over the entire Wikipedia page,"\
+          " there are a lot of words that do differ in definition. The function count_nouns can be used to look at all the nouns that have"\
+          " mulitple occurances and their definitions. Some of these definitions differ.\n")
     print("7.\nI did expect that some words would be correct, when they were not. For instance 'David' is placed in the correct context"\
           " and was still given a wrong definition.\n")
     print("8.\nDisambiguation can help assign the right meaning of a word to that word. This can help link to the right Wikipedia"\
