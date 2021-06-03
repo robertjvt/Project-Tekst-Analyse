@@ -1,15 +1,10 @@
-import sys
-import os
-import wikipedia
+from mediawiki import MediaWiki
 
 
 def wiki_finder(NE):
+    wikipedia = MediaWiki()
     wiki_search = wikipedia.search(NE)
-    try:
-        page = wikipedia.page(wiki_search[0])
-    except wikipedia.exceptions.DisambiguationError as e:
-        page = wikipedia.page(e.options[0])
-
+    page = wikipedia.page(wiki_search[0])
     return page.url
 
 
