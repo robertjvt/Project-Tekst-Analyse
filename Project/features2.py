@@ -11,7 +11,6 @@ def NE_features(data, i):
     features = {
         'word': data[i][3],
         'POS': data[i][4],
-        'index': i
     }
     if len(data[i]) == 6:
         features.update({
@@ -50,7 +49,7 @@ def list_features(data):
     return [NE_features(data, i) for i in range(len(data))]
 
 
-def group_NE(DF):
+'''def group_NE(DF):
     NE_length = 0
     NE_list = []
     for i in range(len(DF)):
@@ -59,7 +58,21 @@ def group_NE(DF):
                 NE_length += 1
                 try:
                     if DF[i+1]['NE']:
-                        continue
+                        if DF[i]['NE'] == DF[i+1]['NE']:
+                            continue
+                        else:
+                            NNP = []
+                            for j in range(NE_length):
+                                NNP.append(DF[(i-NE_length+1)+j]['word'])
+                            entity = ' '.join(NNP)
+                            NE_list.append({
+                                'entity': entity,
+                                'NE': DF[i]['NE'],
+                                'wiki': wiki_finder(entity),
+                                'lower_index': i - NE_length + 1,
+                                'upper_index': i
+                            })
+                            NE_length = 0
                 except IndexError as e:
                     NNP = []
                     for j in range(NE_length):
@@ -72,6 +85,7 @@ def group_NE(DF):
                         'lower_index': i - NE_length + 1,
                         'upper_index': i
                     })
+                    NE_length = 0
                 except KeyError as e:
                     NNP = []
                     for j in range(NE_length):
@@ -84,9 +98,50 @@ def group_NE(DF):
                         'lower_index': i - NE_length + 1,
                         'upper_index': i
                     })
+                    NE_length = 0
+        except KeyError as e:
+            NE_length = 0
+    return NE_list'''
+
+
+def group_NE(DF):
+    NE_length = 0
+    NE_list = []
+    for i in range(len(DF)):
+        try:
+            if DF[i]['NE']:
+                NE_length += 1
+                try:
+                    if DF[i+1]['NE']:
+                        if DF[i]['NE'] == DF[i+1]['NE']:
+                            continue
+                        else:
+                            NE_list.append(entity_features(DF, i, NE_length))
+                            NE_length = 0
+                except IndexError as e:
+                    NE_list.append(entity_features(DF, i, NE_length))
+                    NE_length = 0
+                except KeyError as e:
+                    NE_list.append(entity_features(DF, i, NE_length))
+                    NE_length = 0
         except KeyError as e:
             NE_length = 0
     return NE_list
+
+
+def entity_features(DF, i, NE_length):
+    NNP = []
+    for j in range(NE_length):
+        NNP.append(DF[(i-NE_length+1)+j]['word'])
+        entity = ' '.join(NNP)
+        features = {
+            'entity': entity,
+            'NE': DF[i]['NE'],
+            'wiki': wiki_finder(entity),
+            'lower_index': i - NE_length + 1,
+            'upper_index': i
+        }
+    return features
 
 
 def wiki_finder(NE):    
@@ -106,6 +161,7 @@ def main():
 
     data_features = list_features(data)
     NE_list = group_NE(data_features)
+    print(NE_list)
 
 
 if __name__ == '__main__':
