@@ -1,10 +1,10 @@
- 0 9 1001 Sylvester NNP PER https://en.wikipedia.org/wiki/Sylvester_Stallone PERSON
- 10 18 1002 Stallone NNP PER https://en.wikipedia.org/wiki/Sylvester_Stallone PERSON
+ 0 9 1001 Sylvester NNP PER
+ 10 18 1002 Stallone NNP PER
  19 24 1003 faces VBZ
  25 30 1004 stiff JJ
  31 36 1005 fines NNS
  37 39 1006 in IN
- 40 49 1007 Australia NNP COU https://en.wikipedia.org/wiki/Australia COUNTRY
+ 40 49 1007 Australia NNP COU
  49 50 1008 , ,
  51 56 1009 where WRB
  57 59 1010 he PRP
@@ -26,9 +26,9 @@
  144 146 3001 16 CD
  147 149 3002 in IN
  150 153 3003 the DT
- 154 160 3004 Sydney NNP CIT https://en.wikipedia.org/wiki/Sydney
+ 154 160 3004 Sydney NNP
  161 168 3005 airport NN
- 168 169 3006 , ,
+ 168 169 3006 , , CIT
  170 175 3007 while IN
  176 187 3008 authorities NNS
  188 196 3009 searched VBD
@@ -64,13 +64,13 @@
  335 345 5005 possessing VBG
  346 351 5006 human JJ
  352 358 5007 growth NN
- 359 366 5008 hormone NN
+ 359 366 5008 hormone NN ANI
  366 367 5009 , ,
  368 378 5010 classified VBN
  379 381 5011 in IN
- 382 391 5012 Australia NNP COU https://en.wikipedia.org/wiki/Australia
+ 382 391 5012 Australia NNP
  392 394 5013 as IN
- 395 396 5014 a DT COUNTRY
+ 395 396 5014 a DT COU
  397 407 5015 restricted JJ
  408 429 5016 performance-enhancing JJ
  430 434 5017 drug NN
@@ -93,11 +93,11 @@
  515 517 6016 in IN
  518 524 6017 prison NN
  524 525 6018 . .
- 526 534 7001 Stallone NN PER https://en.wikipedia.org/wiki/Sylvester_Stallone
+ 526 534 7001 Stallone NN
  535 537 7002 is VBZ
  538 546 7003 unlikely JJ
  547 549 7004 to TO
- 550 554 7005 face VB PERSON
+ 550 554 7005 face VB PER
  555 559 7006 such PDT
  560 561 7007 a DT
  562 570 7008 sentence NN

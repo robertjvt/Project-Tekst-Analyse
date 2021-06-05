@@ -1,4 +1,4 @@
- 0 6 1001 France NNP COU https://en.wikipedia.org/wiki/France COUNTRY
+ 0 6 1001 France NNP COU
  6 8 1002 's POS
  9 17 1003 minister NN
  18 20 1004 of IN
@@ -26,14 +26,14 @@
  150 152 1026 by IN
  153 162 1027 outbreaks NNS
  163 165 1028 of IN
- 166 171 1029 swine NN ANI https://en.wikipedia.org/wiki/Domestic_pig
+ 166 171 1029 swine NN
  172 175 1030 flu NN
  175 176 1031 . .
  178 181 2001 The DT
  182 190 2002 minister NN
  190 191 2003 , ,
- 192 195 2004 Luc NNP PER https://en.wikipedia.org/wiki/Luc_Chatel PERSON
- 196 202 2005 Chatel NNP PER https://en.wikipedia.org/wiki/Luc_Chatel PERSON
+ 192 195 2004 Luc NNP PER
+ 196 202 2005 Chatel NNP PER
  202 203 2006 , ,
  204 213 2007 announced VBD
  214 223 2008 Wednesday NNP

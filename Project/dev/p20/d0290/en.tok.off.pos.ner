@@ -1,13 +1,13 @@
  0 2 1001 In IN
- 3 10 1002 Liberia NNP COU https://en.wikipedia.org/wiki/Liberia COUNTRY
+ 3 10 1002 Liberia NNP COU
  10 11 1003 , ,
  12 22 1004 supporters NNS
  23 25 1005 of IN
  26 32 1006 former JJ
- 33 39 1007 soccer NN
+ 33 39 1007 soccer NN SPO
  40 44 1008 star NN
- 45 51 1009 George NNP PER https://en.wikipedia.org/wiki/George_Weah PERSON
- 52 56 1010 Weah NNP PER https://en.wikipedia.org/wiki/George_Weahelection PERSON
+ 45 51 1009 George NNP PER
+ 52 56 1010 Weah NNP PER
  57 61 1011 have VBP
  62 67 1012 vowed VBN
  68 70 1013 to TO
@@ -42,29 +42,29 @@
  249 250 2012 . .
  251 256 3001 Frank NNP PER
  257 266 3002 Sainworla NNP PER
- 266 267 3003 , , ORGANIZATION
- 268 273 3004 radio NN ORGANIZATION
+ 266 267 3003 , , ORG
+ 268 273 3004 radio NN ORG
  274 282 3005 director NN
  283 285 3006 of IN
  286 289 3007 the DT
- 290 293 3008 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
+ 290 293 3008 VOA NNP
  294 303 3009 affiliate NN
- 303 304 3010 , , ORGANIZATION
- 305 310 3011 Radio NNP ORG https://en.wikipedia.org/wiki/List_of_radio_stations_in_Liberia
- 311 318 3012 Veritas NNP ORG https://en.wikipedia.org/wiki/List_of_radio_stations_in_Liberia
- 319 321 3013 in IN ORGANIZATION
- 322 325 3014 the DT ORGANIZATION
+ 303 304 3010 , , ORG
+ 305 310 3011 Radio NNP
+ 311 318 3012 Veritas NNP
+ 319 321 3013 in IN ORG
+ 322 325 3014 the DT ORG
  326 334 3015 Liberian JJ
  335 342 3016 capital NN
  342 343 3017 , ,
- 344 352 3018 Monrovia NNP CIT https://en.wikipedia.org/wiki/Monrovia
+ 344 352 3018 Monrovia NNP
  352 353 3019 , ,
- 354 360 3020 talked VBD
+ 354 360 3020 talked VBD CIT
  361 365 3021 with IN
  366 373 3022 English NNP
  374 376 3023 to TO
- 377 383 3024 Africa NNP COU https://en.wikipedia.org/wiki/Africa
+ 377 383 3024 Africa NNP
  384 392 3025 reporter NN
- 393 398 3026 James NNP PER https://en.wikipedia.org/wiki/Elections_in_Liberia
- 399 404 3027 Butty NNP PER https://en.wikipedia.org/wiki/Elections_in_Liberia
- 404 405 3028 . . PERSON
+ 393 398 3026 James NNP
+ 399 404 3027 Butty NNP
+ 404 405 3028 . . PER
