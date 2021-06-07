@@ -71,18 +71,23 @@ def group_NE(DF):
                 try:
                     # If the next word is a NE
                     if DF[i+1]['NE']:
-                        # If the next NE has the same tag as the current NE
+                        # If the next NE has the same tag as the current NE.
                         if DF[i]['NE'] == DF[i+1]['NE']:
                             continue
                         else:
                             NE_list.append(entity_features(DF, i, NE_length))
                             NE_length = 0
+                # IndexError means that this is the end of the list and there
+                # are more elements after the current one.
                 except IndexError:
                     NE_list.append(entity_features(DF, i, NE_length))
                     NE_length = 0
+                # KeyError means that the next element is not a NE as it does
+                # not have that key.
                 except KeyError:
                     NE_list.append(entity_features(DF, i, NE_length))
                     NE_length = 0
+        # KeyError means that the current element is not a NE.
         except KeyError:
             NE_length = 0
 
@@ -138,8 +143,46 @@ def wiki_finder(NE):
         if wiki_search[0]:
             page = wikipedia.page(wiki_search[0])
             return page.url
+    # IndexError means that the search did not find any results
     except IndexError:
         return
+
+
+def file_generator(data, NE_list):
+    '''
+    This function prints the data to an output file.
+    '''
+    with open('test.output.ent', 'w') as outfile:
+        for i in range(len(data)):
+            try:
+                # Setting variables
+                lower_i = NE_list[0]['lower_index']
+                upper_i = NE_list[0]['upper_index']
+                line = ' '.join(data[i][0:5]) + '\n'
+                line_NE = ' '.join(data[i][0:5]) + ' ' + NE_list[0]['NE'] + ' ' + NE_list[0]['wiki'] + '\n'
+
+                # The program checks the index of the current iteration with
+                # the indeces given in the dictionary, based on this, the
+                # program can see if the word is a NE and thus needs a
+                # different output.
+                if i == lower_i:
+                    outfile.write(line_NE)
+                    if i < upper_i:
+                        continue
+                    elif i == upper_i:
+                        del NE_list[0]
+                elif i > lower_i and i < upper_i:
+                    outfile.write(line_NE)
+                elif i == upper_i:
+                    outfile.write(line_NE)
+                    del NE_list[0]
+                elif i < lower_i:
+                    outfile.write(line)
+            # IndexError means there are no more NE left, but as long as the
+            # iteration is happening, it prints the line
+            except IndexError:
+                line = ' '.join(data[i][0:5]) + '\n'
+                outfile.write(line)
 
 
 def main():
@@ -151,7 +194,7 @@ def main():
 
     data_features = list_features(data)
     NE_list = group_NE(data_features)
-    print(NE_list)
+    file_generator(data, NE_list)
 
 
 if __name__ == '__main__':
