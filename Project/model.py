@@ -42,8 +42,8 @@ def read_files():
                         output = line.rstrip() + ' ' + "NAT" + '\n'
                     elif ner_tags[0][1] == "SPO":
                         output = line.rstrip() + ' ' + "SPO" + '\n'
-                    elif ner_tags[0][1] == "ENT":
-                        output = line.rstrip() + ' ' + "ENT" + '\n'
+                    #elif ner_tags[0][1] == "ENT":
+                    #    output = line.rstrip() + ' ' + "ENT" + '\n'
                     else:
                         output = line.rstrip() + '\n'
                     ner_tags.pop(0)
