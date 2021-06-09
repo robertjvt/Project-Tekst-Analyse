@@ -6,13 +6,13 @@ import os
 from nltk.parse import CoreNLPParser
 from nltk.tag import StanfordNERTagger
 
+import fileinput
 
-def read_files(argv):
+
+def read_files():
     ner_tagger = CoreNLPParser(url='http://localhost:9001', tagtype='ner')
-    text = sys.stdin.readlines()
     tokens = []
-    for line in text:
-        sys.stdout.write(line)
+    for line in fileinput.input():
         line = line.rstrip()
         line = line.split()
         if len(line) == 6:
@@ -20,35 +20,33 @@ def read_files(argv):
         else:
             tokens.append(line[3])
     ner_tags = ner_tagger.tag(tokens)
-    for line in text:
+    for line in fileinput.input():
         output = ""
         if ner_tags[0][1] == "COUNTRY" or ner_tags[0][1] == "STATE_OR_PROVINCE": 
-            output = line.rstrip() + ' ' + "COU" + '\n'
+            print(line.rstrip() + ' ' + "COU")
             #print(output)
         elif ner_tags[0][1] == "PERSON":
-            output = line.rstrip() + ' ' + "PER" + '\n'
+            print(line.rstrip() + ' ' + "PER")
         elif ner_tags[0][1] == "CITY":
-            output = line.rstrip() + ' ' + "CIT" + '\n'
+            print(line.rstrip() + ' ' + "CIT")
         elif ner_tags[0][1] == "ORGANIZATION":
-            output = line.rstrip() + ' ' + "ORG" + '\n'
+            print(line.rstrip() + ' ' + "ORG")
         elif ner_tags[0][1] == "ANI":
-            output = line.rstrip() + ' ' + "ANI" + '\n'
+            print(line.rstrip() + ' ' + "ANI")
         elif ner_tags[0][1] == "NAT":
-            output = line.rstrip() + ' ' + "NAT" + '\n'
+            print(line.rstrip() + ' ' + "NAT")
         elif ner_tags[0][1] == "SPO":
-            output = line.rstrip() + ' ' + "SPO" + '\n'
+            print(line.rstrip() + ' ' + "SPO")
         #elif ner_tags[0][1] == "ENT":
         #    output = line.rstrip() + ' ' + "ENT" + '\n'
         else:
-            sys.stdout.write(line.rstrip() + '\n')
+            print(line.rstrip())
         ner_tags.pop(0)
         #print(output)
-        file.write(output)
-    file.close()
 
-def main(argv):
-    read_files(argv)
+def main():
+    read_files()
 
 
 if __name__ == '__main__':
-    main(sys.argv[1])
+    main()
