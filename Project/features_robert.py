@@ -4,6 +4,8 @@ import os
 from mediawiki import MediaWiki
 import nltk
 from nltk.corpus import wordnet
+from nltk.wsd import lesk
+from collections import Counter
 
 
 def NE_features(data, i):
@@ -70,7 +72,7 @@ def group_NE(DF):
                     NE_list.append({
                         'entity': entity,
                         'NE': DF[i]['NE'],
-                        'wiki': wiki_finder(entity),
+                        #'wiki': wiki_finder(entity),
                         'lower_index': i - NE_length + 1,
                         'upper_index': i
                     })
@@ -82,7 +84,7 @@ def group_NE(DF):
                     NE_list.append({
                         'entity': entity,
                         'NE': DF[i]['NE'],
-                        'wiki': wiki_finder(entity),
+                        #'wiki': wiki_finder(entity),
                         'lower_index': i - NE_length + 1,
                         'upper_index': i
                     })
@@ -91,45 +93,80 @@ def group_NE(DF):
     return NE_list
 
 
-def wiki_finder(NE):    
-    wikipedia = MediaWiki()
-    wiki_search = wikipedia.search(NE)
-    page = wikipedia.page(wiki_search[0])
-
-    return page.url
-
-
-def noun_finder(summary):
-    sentence_tokens = nltk.sent_tokenize(summary)
-    word_tokens = []
-    noun_list = []
-    for sentence in sentence_tokens:
-        word_tokens.append(nltk.word_tokenize(sentence))
-    for sentence in word_tokens:
-        pos_tags = nltk.pos_tag(sentence)
-        for tagged_word in pos_tags:
-            if tagged_word[1][:2] == "NN":
-                noun_list.append([tagged_word[0], sentence])
-    return noun_list
-
-
-def synset_finder(noun_list):
-    synset_list = []
-    for noun in noun_list:
-        synsets = wordnet.synsets(noun[0], 'n')
-        synset_list.append(synsets)
-            
+def best_match(final_pages, label):
+    best_count = 0
+    best_page = ''
     
+    for item in final_pages:
+        summary = [word.lower() for word in item[1].split()]
+        count = 0
 
-def find_wikipedia(NE):
-    wikipedia = MediaWiki()
-    possible_pages = wikipedia.search(NE)
-    for item in possible_pages:
-        page = wikipedia.page(item)
-        summary = page.summary
-        noun_list = noun_finder(summary)
-        print(noun_list)
+        if label == 'COU':
+            keywords = ['country', 'state', 'province', 'county']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
         
+        elif label == 'CIT':
+            keywords = ['city', 'town', 'place']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+                    
+        elif label == 'NAT':
+            keywords = ['mountain', 'river', 'ocean', 'lake', 'volcano', 'sea', 'forest', 'natural']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+            
+        elif label == 'PER':
+            keywords = ['born', 'he', 'she', 'person', 'was', 'is', 'father', 'mother']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+                    
+        elif label == 'ORG':
+            keywords = ['organization', 'company', 'profit', 'founded', 'headquarters']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+
+        elif label == 'ANI':
+            keywords = ['domestic', 'descendent', 'animal', 'breed', 'species', 'specy']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+
+        elif label == 'SPO':
+            keywords = ['sport', 'team', 'football', 'soccer', 'baseball', 'basketball', 'sports', 'players']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+
+        if count > best_count:
+            best_page = item
+            best_count = count
+    return best_page[2]
+
+
+def find_wikipedia(dictionary):
+    wikipedia = MediaWiki()
+    NE = dictionary['entity']
+    label = dictionary['NE']
+    possible_pages = wikipedia.search(NE)
+    final_pages = []
+    
+    for item in possible_pages:
+        try:
+            page = wikipedia.page(item)
+            summary = page.summarize()
+            url = page.url
+            final_pages.append([page, summary, url])
+        except Exception as e:
+            options = e.options
+
+    return best_match(final_pages, label)
+
 
 def main():
     with open('test.output') as file:
@@ -139,9 +176,12 @@ def main():
             data.append(line)        
     data_features = list_features(data)
     NE_list = group_NE(data_features)
-    
+
     for dictionary in NE_list:
-        find_wikipedia(dictionary['entity'])
+        dictionary['wiki_link'] = find_wikipedia(dictionary)
+
+    print(NE_list)
+        
         
 
 if __name__ == '__main__':
