@@ -1,4 +1,5 @@
 from mediawiki import MediaWiki
+from fuzzywuzzy import fuzz
 
 
 def NE_features(data, i):
@@ -106,8 +107,7 @@ def entity_features(DF, i, NE_length):
         entity.append(DF[(i - NE_length + 1) + j]['word'])
     # Makes entity into a string
     entity = ' '.join(entity)
-    url = wiki_finder(entity)
-    # If there is a url, create a dictionary with features
+    url = wiki_finder(entity, DF[i]['NE'])
     if url is not None:
         features = {
             'entity': entity,
@@ -124,14 +124,18 @@ def clean_list(NE_list):
     '''
     This function removes any instances of None in a list
     '''
+    x = 0
     for i in range(len(NE_list)):
         if NE_list[i] is None:
-            del NE_list[i]
+            del NE_list[x]
+            x -= 1
+        x += 1
+            
 
     return NE_list
 
 
-def wiki_finder(NE):
+def wiki_finder(NE, tag):
     '''
     This function takes a named entity, checks if there is a Wikipedia page
     for it and if so, returns the url.
@@ -146,6 +150,51 @@ def wiki_finder(NE):
     # IndexError means that the search did not find any results
     except IndexError:
         return
+    except Exception as e:
+        results = e.options
+        if tag == 'COU':
+            keywords = ['country', 'region', 'state', 'province', 'county']
+        elif tag == 'CIT':
+            keywords = ['city', 'town', 'village', 'capital']
+        elif tag == 'NAT':
+            keywords = ['lake', 'river', 'sea', 'ocean', 'reef', 'mountain',
+                        'hill', 'mount', 'peak', 'volcano', 'forest',
+                        'jungle', 'desert']
+        elif tag == 'PER':
+            keywords = ['given name', 'surname', 'name', 'person']
+        elif tag == 'ORG':
+            keywords = []
+        elif tag == 'ANI':
+            keywords = []
+        elif tag == 'SPO':
+            keywords = []
+        elif tag == 'ENT':
+            keywords = ['book', 'story', 'novel', 'comic' 'movie', 'film',
+                        'series', 'episode' 'song', 'album', 'game']
+        else:
+            keywords = []
+        possible_pages = []
+        matching_scores = []
+        for elem in keywords:
+            for option in results:
+                if 'disambiguation' in option.lower():
+                    continue
+                elif elem in option.lower():
+                    possible_pages.append(option)
+                    matching_scores.append(fuzz.ratio(NE, option))
+        if len(possible_pages) >= 1:
+            best_score = 0
+            for i in range(len(matching_scores)):
+                if i == 0:
+                    continue
+                if matching_scores[i] > matching_scores[i-1]:
+                    best_score = i
+            page = wikipedia.page(possible_pages[best_score])
+            print(possible_pages[best_score])
+            return page.url
+        else:
+            x = 5
+            return '-'
 
 
 def file_generator(data, NE_list):
