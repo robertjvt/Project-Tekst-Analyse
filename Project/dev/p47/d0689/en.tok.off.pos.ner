@@ -1,6 +1,6 @@
 0 4 1001 This DT
 5 16 1002 uninhabited JJ
-17 23 1003 island NN
+17 23 1003 island NN NAT
 24 27 1004 was VBD
 28 35 1005 claimed VBN
 36 38 1006 by IN
@@ -55,7 +55,7 @@
 286 296 4004 expedition NN
 297 299 4005 to TO
 300 303 4006 the DT
-304 310 4007 island NN
+304 310 4007 island NN NAT
 311 320 4008 described VBD
 321 323 4009 it PRP
 324 326 4010 as IN
