@@ -107,7 +107,10 @@ def entity_features(DF, i, NE_length):
         entity.append(DF[(i - NE_length + 1) + j]['word'])
     # Makes entity into a string
     entity = ' '.join(entity)
-    url = wiki_finder(entity, DF[i]['NE'])
+################################### hier
+    
+    url = find_wikipedia(entity, DF[i]['NE'])
+    
     if url is not None:
         features = {
             'entity': entity,
@@ -133,68 +136,6 @@ def clean_list(NE_list):
             
 
     return NE_list
-
-
-def wiki_finder(NE, tag):
-    '''
-    This function takes a named entity, checks if there is a Wikipedia page
-    for it and if so, returns the url.
-    '''
-    wikipedia = MediaWiki()
-    wiki_search = wikipedia.search(NE)
-    try:
-        # If the wiki search has any results
-        if wiki_search[0]:
-            page = wikipedia.page(wiki_search[0])
-            return page.url
-    # IndexError means that the search did not find any results
-    except IndexError:
-        return
-    except Exception as e:
-        results = e.options
-        if tag == 'COU':
-            keywords = ['country', 'region', 'state', 'province', 'county']
-        elif tag == 'CIT':
-            keywords = ['city', 'town', 'village', 'capital']
-        elif tag == 'NAT':
-            keywords = ['lake', 'river', 'sea', 'ocean', 'reef', 'mountain',
-                        'hill', 'mount', 'peak', 'volcano', 'forest',
-                        'jungle', 'desert']
-        elif tag == 'PER':
-            keywords = ['given name', 'surname', 'name', 'person']
-        elif tag == 'ORG':
-            keywords = []
-        elif tag == 'ANI':
-            keywords = []
-        elif tag == 'SPO':
-            keywords = []
-        elif tag == 'ENT':
-            keywords = ['book', 'story', 'novel', 'comic' 'movie', 'film',
-                        'series', 'episode' 'song', 'album', 'game']
-        else:
-            keywords = []
-        possible_pages = []
-        matching_scores = []
-        for elem in keywords:
-            for option in results:
-                if 'disambiguation' in option.lower():
-                    continue
-                elif elem in option.lower():
-                    possible_pages.append(option)
-                    matching_scores.append(fuzz.ratio(NE, option))
-        if len(possible_pages) >= 1:
-            best_score = 0
-            for i in range(len(matching_scores)):
-                if i == 0:
-                    continue
-                if matching_scores[i] > matching_scores[i-1]:
-                    best_score = i
-            page = wikipedia.page(possible_pages[best_score])
-            print(possible_pages[best_score])
-            return page.url
-        else:
-            x = 5
-            return '-'
 
 
 def file_generator(data, NE_list):
@@ -232,6 +173,80 @@ def file_generator(data, NE_list):
             except IndexError:
                 line = ' '.join(data[i][0:5]) + '\n'
                 outfile.write(line)
+
+
+def best_match(final_pages, label):
+    best_count = 0
+    best_page = ''
+    
+    for item in final_pages:
+        summary = [word.lower() for word in item[1].split()]
+        count = 0
+
+        if label == 'COU':
+            keywords = ['country', 'state', 'province', 'county']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+        
+        elif label == 'CIT':
+            keywords = ['city', 'town', 'place']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+                    
+        elif label == 'NAT':
+            keywords = ['mountain', 'river', 'ocean', 'lake', 'volcano', 'sea', 'forest', 'natural']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+            
+        elif label == 'PER':
+            keywords = ['born', 'he', 'she', 'person', 'was', 'is', 'father', 'mother']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+                    
+        elif label == 'ORG':
+            keywords = ['organization', 'company', 'profit', 'founded', 'headquarters']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+
+        elif label == 'ANI':
+            keywords = ['domestic', 'descendent', 'animal', 'breed', 'species', 'specy']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+
+        elif label == 'SPO':
+            keywords = ['sport', 'team', 'football', 'soccer', 'baseball', 'basketball', 'sports', 'players']
+            for keyword in keywords:
+                if keyword in summary:
+                    count += 1
+
+        if count > best_count:
+            best_page = item
+            best_count = count
+    return best_page[2]
+
+
+def find_wikipedia(NE, label):
+    wikipedia = MediaWiki()
+    possible_pages = wikipedia.search(NE)
+    final_pages = []
+    print(label)
+    print(NE)
+    for item in possible_pages:
+        try:
+            page = wikipedia.page(item)
+            summary = page.summarize()
+            url = page.url
+            final_pages.append([page, summary, url])
+        except Exception as e:
+            options = e.options
+
+    return best_match(final_pages, label)
 
 
 def main():
