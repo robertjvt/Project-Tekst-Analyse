@@ -12,8 +12,8 @@
 52 57 1012 their PRP$
 58 64 1013 wealth NN
 64 65 1014 . .
-66 71 2001 Carol NNP PER https://en.wikipedia.org/wiki/Carol_Lynn_Pearson
-72 79 2002 Pearson NNP PER https://en.wikipedia.org/wiki/Carol_Lynn_Pearson
+66 71 2001 Carol NNP PER
+72 79 2002 Pearson NNP PER
 80 87 2003 reports NNS
 88 90 2004 on IN
 91 94 2005 the DT
@@ -24,5 +24,5 @@
 125 128 2010 are VBP
 129 135 2011 having VBG
 136 138 2012 on IN
-139 148 2013 Americans NNPS COU https://en.wikipedia.org/wiki/United_States
+139 148 2013 Americans NNPS
 148 149 2014 . .
