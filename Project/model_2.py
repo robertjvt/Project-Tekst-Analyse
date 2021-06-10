@@ -20,27 +20,28 @@ def read_files():
         else:
             tokens.append(line[3])
     ner_tags = ner_tagger.tag(tokens)
+    ner_list
     for line in fileinput.input():
         output = ""
         if ner_tags[0][1] == "COUNTRY" or ner_tags[0][1] == "STATE_OR_PROVINCE": 
-            print(line.rstrip() + ' ' + "COU")
+            ner_list.append(line.rstrip() + ' ' + "COU")
             #print(output)
         elif ner_tags[0][1] == "PERSON":
-            print(line.rstrip() + ' ' + "PER")
+            ner_list.append(line.rstrip() + ' ' + "PER")
         elif ner_tags[0][1] == "CITY":
-            print(line.rstrip() + ' ' + "CIT")
+            ner_list.append(line.rstrip() + ' ' + "CIT")
         elif ner_tags[0][1] == "ORGANIZATION":
-            print(line.rstrip() + ' ' + "ORG")
+            ner_list.append(line.rstrip() + ' ' + "ORG")
         elif ner_tags[0][1] == "ANI":
-            print(line.rstrip() + ' ' + "ANI")
+            ner_list.append(line.rstrip() + ' ' + "ANI")
         elif ner_tags[0][1] == "NAT":
-            print(line.rstrip() + ' ' + "NAT")
+            ner_list.append(line.rstrip() + ' ' + "NAT")
         elif ner_tags[0][1] == "SPO":
-            print(line.rstrip() + ' ' + "SPO")
+            ner_list.append(line.rstrip() + ' ' + "SPO")
         #elif ner_tags[0][1] == "ENT":
         #    output = line.rstrip() + ' ' + "ENT" + '\n'
         else:
-            print(line.rstrip())
+            ner_list.append(line.rstrip())
         ner_tags.pop(0)
         #print(output)
 
