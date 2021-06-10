@@ -1,6 +1,7 @@
 from mediawiki import MediaWiki
-import model_2
+import model_2_all
 import sys
+import os
 
 
 def NE_features(data, i):
@@ -107,9 +108,7 @@ def entity_features(DF, i, NE_length):
         # Adds all words belonging to this entity to a list
         entity.append(DF[(i - NE_length + 1) + j]['word'])
     # Makes entity into a string
-    entity = ' '.join(entity)
-################################### hier
-    
+    entity = ' '.join(entity)    
     url = find_wikipedia(entity, DF[i]['NE'])
     
     if url is not None:
@@ -132,43 +131,6 @@ def clean_list(NE_list):
         NE_list.remove(None)
 
     return NE_list
-
-
-def file_generator(data, NE_list):
-    '''
-    This function prints the data to an output file.
-    '''
-    with open('test.output.ent', 'w') as outfile:
-        for i in range(len(data)):
-            try:
-                # Setting variables
-                lower_i = NE_list[0]['lower_index']
-                upper_i = NE_list[0]['upper_index']
-                line = ' '.join(data[i][0:5]) + '\n'
-                line_NE = ' '.join(data[i][0:5]) + ' ' + NE_list[0]['NE'] + ' ' + NE_list[0]['wiki'] + '\n'
-
-                # The program checks the index of the current iteration with
-                # the indeces given in the dictionary, based on this, the
-                # program can see if the word is a NE and thus needs a
-                # different output.
-                if i == lower_i:
-                    print(line_NE.rstrip())
-                    if i < upper_i:
-                        continue
-                    elif i == upper_i:
-                        del NE_list[0]
-                elif i > lower_i and i < upper_i:
-                    print(line_NE.rstrip())
-                elif i == upper_i:
-                    print(line_NE.rstrip())
-                    del NE_list[0]
-                elif i < lower_i:
-                    print(line.rstrip())
-            # IndexError means there are no more NE left, but as long as the
-            # iteration is happening, it prints the line
-            except IndexError:
-                line = ' '.join(data[i][0:5]) + '\n'
-                print(line.rstrip())
 
 
 def best_match(final_pages, label):
@@ -253,21 +215,71 @@ def find_wikipedia(NE, label):
         return
 
 
+def file_generator(data, NE_list, location):
+    '''
+    This function prints the data to an output file.
+    '''
+    with open(location + "/en.tok.off.pos.ent.output", "w") as outfile:
+        for i in range(len(data)):
+            try:
+                # Setting variables
+                lower_i = NE_list[0]['lower_index']
+                upper_i = NE_list[0]['upper_index']
+                line = ' '.join(data[i][0:5]) + '\n'
+                line_NE = ' '.join(data[i][0:5]) + ' ' + NE_list[0]['NE'] + ' ' + NE_list[0]['wiki'] + '\n'
+
+                # The program checks the index of the current iteration with
+                # the indeces given in the dictionary, based on this, the
+                # program can see if the word is a NE and thus needs a
+                # different output.
+                if i == lower_i:
+                    outfile.write(line_NE)
+                    if i < upper_i:
+                        continue
+                    elif i == upper_i:
+                        del NE_list[0]
+                elif i > lower_i and i < upper_i:
+                    outfile.write(line_NE)
+                elif i == upper_i:
+                    outfile.write(line_NE)
+                    del NE_list[0]
+                elif i < lower_i:
+                    outfile.write(line)
+            # IndexError means there are no more NE left, but as long as the
+            # iteration is happening, it outfile.writes the line
+            except IndexError:
+                line = ' '.join(data[i][0:5]) + '\n'
+                outfile.write(line)
+
+
 def main():
-    '''with open('test.output') as file:
-        data = []
-        for line in file:
-            line = line.rstrip().split()
-            data.append(line)'''
-    data = []
+    for root, dirs, files in os.walk("dev", topdown=False):
+        for name in files:
+            if name == "en.tok.off.pos":
+                print(os.path.join(root, name))
+                data = []
+                file = open(os.path.join(root, name)).readlines()
+                text = model_2_all.read_files(file)
+                for line in text:
+                    line = line.rstrip().split()
+                    data.append(line)
+                data_features = list_features(data)
+                NE_list = group_NE(data_features)
+                file_generator(data, NE_list, os.path.join(root))
+                print('Finished file:', os.path.join(root, name))
+                '''data = []
+                text = open(os.path.join(root, name)).readlines()
+                for line in text:
+                    data.append(line.rstrip().split())
+                print(data)'''
+    '''data = []
     file = model_2.read_files()
     for line in file:
         line = line.rstrip().split()
         data.append(line)
-    print(data)
     data_features = list_features(data)
     NE_list = group_NE(data_features)
-    file_generator(data, NE_list)
+    file_generator(data, NE_list)'''
 
 
 if __name__ == '__main__':

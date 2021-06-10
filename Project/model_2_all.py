@@ -9,10 +9,10 @@ from nltk.tag import StanfordNERTagger
 import fileinput
 
 
-def read_files():
+def read_files(text):
     ner_tagger = CoreNLPParser(url='http://localhost:9001', tagtype='ner')
     tokens = []
-    for line in fileinput.input():
+    for line in text:
         line = line.rstrip()
         line = line.split()
         if len(line) == 6:
@@ -21,7 +21,7 @@ def read_files():
             tokens.append(line[3])
     ner_tags = ner_tagger.tag(tokens)
     ner_list = []
-    for line in fileinput.input():
+    for line in text:
         output = ""
         if ner_tags[0][1] == "COUNTRY" or ner_tags[0][1] == "STATE_OR_PROVINCE": 
             ner_list.append(line.rstrip() + ' ' + "COU")
@@ -46,9 +46,9 @@ def read_files():
         #print(output)
     return ner_list
 
-def main():
+'''def main():
     read_files()
 
 
 if __name__ == '__main__':
-    main()
+    main()'''
