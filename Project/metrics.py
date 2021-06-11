@@ -6,6 +6,32 @@ from nltk.metrics import ConfusionMatrix
 from sklearn.metrics import classification_report
 
 
+def open_files():
+    output = []
+    golden = []
+    for root, dirs, files in os.walk("dev", topdown=False):
+        for name in files:
+            if name == "en.tok.off.pos.ent.output":
+                file = open(os.path.join(root, name)).readlines()
+                for line in file:
+                    line = line.rstrip().split()
+                    if len(line) > 5 and line[5] == '-':
+                        line.pop(5)
+                    if len(line) > 6 and line[6] == '-':
+                        line.pop(6)
+                    output.append(line)
+            if name == "en.tok.off.pos.ent":
+                file = open(os.path.join(root, name)).readlines()
+                for line in file:
+                    line = line.rstrip().split()
+                    if len(line) > 5 and line[5] == '-':
+                        line.pop(5)
+                    if len(line) > 6 and line[6] == '-':
+                        line.pop(6)
+                    golden.append(line)
+    return output, golden
+
+
 def clean_labels(l1, l2):
     '''
     This function clears the labels from instances where both lists have
@@ -59,6 +85,7 @@ def give_label(root, name, anno, labels, bool_labels):
             anno.append([linelist[3], 'None'])
             labels.append('None')
             bool_labels.append('False')
+    
     return anno, labels, bool_labels
 
 
@@ -83,6 +110,7 @@ def word_labels(file1, file2):
             # program
             if name == file1:
                 anno1, labels1, bool_labels1 = give_label(root, name, anno1, labels1, bool_labels1)
+                #print(labels1)
             # If the name is the same as the second file input into the
             # program
             elif name == file2:
@@ -104,12 +132,31 @@ def print_agreement(cl1, cl2, cblt1, cblt2, cblf1, cblf2):
     print(ConfusionMatrix(cl1, cl2))
 
 
+def measure_wiki(output, golden):
+    output_wiki = []
+    golden_wiki = []
+    
+    for i in range(len(output)):
+        if len(output[i]) > 6 and len(golden[i]) > 6:
+            output_wiki.append(output[i][6])
+            golden_wiki.append(golden[i][6])
+    acc = 0
+    total = len(golden_wiki)
+
+    for i in range(len(output_wiki)):
+        if output_wiki[i] == golden_wiki[i]:
+            acc += 1
+
+    print('Accuracy wikification:', acc / total)
+    
+
 def main(file1, file2):
     labels1, labels2, bool_labels1, bool_labels2, = word_labels(file1, file2)
     cl1, cl2 = clean_labels(labels1, labels2)
     cblt1, cblt2, cblf1, cblf2 = clean_bool_labels(bool_labels1, bool_labels2)
     print_agreement(cl1, cl2, cblt1, cblt2, cblf1, cblf2)
-
+    output, golden = open_files()
+    measure_wiki(output, golden)
 
 
 if len(sys.argv) != 3:
