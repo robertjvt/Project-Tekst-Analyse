@@ -9,8 +9,8 @@
 61 64 1009 war NN
 65 71 1010 crimes NNS
 72 79 1011 suspect VBP
-80 87 1012 Charles NNP PER https://en.wikipedia.org/wiki/Charles_Taylor_(actor)
-88 94 1013 Taylor NNP PER https://en.wikipedia.org/wiki/Charles_Taylor_(actor)
+80 87 1012 Charles NNP PER https://en.wikipedia.org/wiki/Charles_McArther_Emmanuel
+88 94 1013 Taylor NNP PER https://en.wikipedia.org/wiki/Charles_McArther_Emmanuel
 95 98 1014 has VBZ
 99 110 1015 disappeared VBN
 111 115 1016 from IN

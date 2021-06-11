@@ -26,8 +26,8 @@
 131 135 2017 jazz NN
 136 142 2018 greats NNS
 143 145 2019 as IN
-146 153 2020 Charlie NNP PER https://en.wikipedia.org/wiki/Charlie_Watts
-154 160 2021 Parker NNP PER https://en.wikipedia.org/wiki/Charlie_Watts
+146 153 2020 Charlie NNP PER https://en.wikipedia.org/wiki/Buddy_Rich
+154 160 2021 Parker NNP PER https://en.wikipedia.org/wiki/Buddy_Rich
 161 164 2022 and CC
 165 169 2023 John NNP PER https://en.wikipedia.org/wiki/Boom_Boom_(John_Lee_Hooker_song)
 170 173 2024 Lee NNP PER https://en.wikipedia.org/wiki/Boom_Boom_(John_Lee_Hooker_song)
