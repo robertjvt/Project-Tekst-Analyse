@@ -1,7 +1,7 @@
-4 11 1001 Pacific NNP ORG https://en.wikipedia.org/wiki/Union_Pacific_Corporation
-12 17 1002 First NNP ORG https://en.wikipedia.org/wiki/Union_Pacific_Corporation
-18 27 1003 Financial NNP ORG https://en.wikipedia.org/wiki/Union_Pacific_Corporation
-28 33 1004 Corp. NNP ORG https://en.wikipedia.org/wiki/Union_Pacific_Corporation
+4 11 1001 Pacific NNP ORG https://en.wikipedia.org/wiki/SoftBank_Group
+12 17 1002 First NNP ORG https://en.wikipedia.org/wiki/SoftBank_Group
+18 27 1003 Financial NNP ORG https://en.wikipedia.org/wiki/SoftBank_Group
+28 33 1004 Corp. NNP ORG https://en.wikipedia.org/wiki/SoftBank_Group
 34 38 1005 said VBD
 39 51 1006 shareholders NNS
 52 60 1007 approved VBD

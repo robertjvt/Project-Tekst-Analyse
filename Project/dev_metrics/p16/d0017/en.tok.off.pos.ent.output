@@ -60,7 +60,7 @@
 301 304 3020 for IN
 305 306 3021 a DT
 307 311 3022 U.N. NNP
-312 322 3023 conference NN ORG -
+312 322 3023 conference NN ORG https://en.wikipedia.org/wiki/Pac-12_Conference
 323 325 3024 to TO
 326 332 3025 tackle VB
 333 336 3026 the DT

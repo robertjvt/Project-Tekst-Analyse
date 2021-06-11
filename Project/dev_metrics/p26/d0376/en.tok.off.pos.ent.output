@@ -35,7 +35,7 @@
 173 177 2014 when WRB
 178 182 2015 U.S. NNP CIT https://en.wikipedia.org/wiki/United_States
 183 189 2016 ground NN
-190 196 2017 forces NNS COU https://en.wikipedia.org/wiki/Force
+190 196 2017 forces NNS COU https://en.wikipedia.org/wiki/Special_forces
 197 204 2018 arrived VBN
 204 205 2019 . .
 206 209 3001 The DT

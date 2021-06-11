@@ -6,22 +6,6 @@ from nltk.metrics import ConfusionMatrix
 from sklearn.metrics import classification_report
 
 
-def open_files():
-    output = []
-    golden = []
-    for root, dirs, files in os.walk("dev_metrics", topdown=False):
-        for name in files:
-            if name == "en.tok.off.pos.ent.output":
-                file = open(os.path.join(root, name)).readlines()
-                for line in file:
-                    output.append(line.rstrip())
-            if name == "en.tok.off.pos.ent":
-                file = open(os.path.join(root, name)).readlines()
-                for line in file:
-                    golden.append(line.rstrip())
-    return output, golden
-
-
 def clean_labels(l1, l2):
     '''
     This function clears the labels from instances where both lists have
@@ -61,6 +45,10 @@ def give_label(root, name, anno, labels, bool_labels):
         text = f.readlines()
     for line in text:
         linelist = line.split()
+        if len(linelist) > 6 and linelist[6] == '-':
+            linelist.pop(6)
+        if len(linelist) > 5 and linelist[5] == '-':
+            linelist.pop(5)
         # If the linelist is longer than 5, there is an annotation
         if len(linelist) > 5 and linelist[3]:
             anno.append([linelist[3], linelist[5]])
@@ -118,7 +106,6 @@ def print_agreement(cl1, cl2, cblt1, cblt2, cblf1, cblf2):
 
 def main(file1, file2):
     labels1, labels2, bool_labels1, bool_labels2, = word_labels(file1, file2)
-    #print(labels2)
     cl1, cl2 = clean_labels(labels1, labels2)
     cblt1, cblt2, cblf1, cblf2 = clean_bool_labels(bool_labels1, bool_labels2)
     print_agreement(cl1, cl2, cblt1, cblt2, cblf1, cblf2)

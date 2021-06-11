@@ -80,10 +80,10 @@
 473 477 5009 more RBR
 478 482 5010 than IN
 483 486 5011 200 CD
-487 493 5012 people NNS CIT https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
-494 496 5013 in IN CIT https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
-497 500 5014 the DT CIT https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
-501 505 5015 last JJ CIT https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
-506 510 5016 four CD CIT https://en.wikipedia.org/wiki/Nineteen_Eighty-Four
+487 493 5012 people NNS CIT https://en.wikipedia.org/wiki/Gettysburg_Address
+494 496 5013 in IN CIT https://en.wikipedia.org/wiki/Gettysburg_Address
+497 500 5014 the DT CIT https://en.wikipedia.org/wiki/Gettysburg_Address
+501 505 5015 last JJ CIT https://en.wikipedia.org/wiki/Gettysburg_Address
+506 510 5016 four CD CIT https://en.wikipedia.org/wiki/Gettysburg_Address
 511 517 5017 months NNS
 517 518 5018 . .

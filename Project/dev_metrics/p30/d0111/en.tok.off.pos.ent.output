@@ -53,5 +53,5 @@
 301 303 3002 's POS
 304 308 3003 Jeff NNP ORG https://en.wikipedia.org/wiki/Jeff_Bezos
 309 316 3004 Swicord NNP
-317 324 3005 Reports NNP PER https://en.wikipedia.org/wiki/Consumer_Reports
-324 325 3006 . . PER https://en.wikipedia.org/wiki/Consumer_Reports
+317 324 3005 Reports NNP PER https://en.wikipedia.org/wiki/Scientific_Reports
+324 325 3006 . . PER https://en.wikipedia.org/wiki/Scientific_Reports
