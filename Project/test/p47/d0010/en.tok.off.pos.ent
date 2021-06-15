@@ -1,0 +1,60 @@
+0 3 1001 The DT
+4 6 1002 US NNP NAT https://en.wikipedia.org/wiki/Gulf_Coast_of_the_United_States
+7 11 1003 Gulf NNP NAT https://en.wikipedia.org/wiki/Gulf_Coast_of_the_United_States
+12 17 1004 Coast NNP NAT https://en.wikipedia.org/wiki/Gulf_Coast_of_the_United_States
+18 22 1005 city NN
+23 25 1006 of IN
+26 29 1007 New NNP CIT https://en.wikipedia.org/wiki/New_Orleans
+30 37 1008 Orleans NNP CIT https://en.wikipedia.org/wiki/New_Orleans
+38 45 1009 escaped VBD
+46 47 1010 a DT
+48 53 1011 major JJ
+54 62 1012 disaster NN
+63 67 1013 this DT
+68 72 1014 week NN
+73 77 1015 when WRB
+78 87 1016 Hurricane NNP
+88 94 1017 Gustav NNP
+95 98 1018 hit VBD
+99 104 1019 shore RB
+105 109 1020 some DT
+110 113 1021 110 CD
+114 124 1022 kilometers NNS
+125 134 1023 southwest NN
+135 137 1024 of IN
+138 141 1025 the DT
+142 151 1026 legendary JJ
+152 156 1027 city NN
+156 157 1028 . .
+159 164 2001 Three CD
+165 170 2002 years NNS
+171 174 2003 ago RB
+174 175 2004 , ,
+176 179 2005 New NNP CIT https://en.wikipedia.org/wiki/New_Orleans
+180 187 2006 Orleans NNP CIT https://en.wikipedia.org/wiki/New_Orleans
+188 191 2007 was VBD
+192 202 2008 devastated VBN
+203 205 2009 by IN
+206 215 2010 Hurricane NNP
+216 223 2011 Katrina NNP
+223 224 2012 . .
+225 228 3001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
+228 230 3002 's POS
+231 236 3003 Barry NNP
+237 241 3004 Wood NNP
+242 249 3005 reports VBZ
+250 253 3006 the DT
+254 258 3007 city NN
+259 261 3008 is VBZ
+262 270 3009 cleaning VBG
+271 273 3010 up RP
+274 278 3011 from IN
+279 280 3012 a DT
+281 286 3013 storm NN
+287 291 3014 that WDT
+292 297 3015 could MD
+298 302 3016 have VB
+303 307 3017 been VBN
+308 312 3018 much JJ
+313 318 3019 worse JJR
+318 319 3020 . .

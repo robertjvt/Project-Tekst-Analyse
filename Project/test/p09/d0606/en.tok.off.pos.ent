@@ -1,0 +1,100 @@
+0 9 1001 Five-time JJ
+10 17 1002 Olympic NNP
+18 26 1003 champion NN
+27 30 1004 Ian NNP PER https://en.wikipedia.org/wiki/Ian_Thorpe
+31 37 1005 Thorpe NNP PER https://en.wikipedia.org/wiki/Ian_Thorpe
+37 39 1006 's POS
+40 42 1007 of IN
+43 52 1008 Australia NNP COU https://en.wikipedia.org/wiki/Australia
+53 59 1009 return NN
+60 62 1010 to TO
+63 74 1011 competitive JJ SPO https://en.wikipedia.org/wiki/Swimming_(sport)
+75 83 1012 swimming NN SPO https://en.wikipedia.org/wiki/Swimming_(sport)
+84 89 1013 after IN
+90 91 1014 a DT
+92 100 1015 15-month JJ
+101 106 1016 break NN
+107 113 1017 lasted VBD
+114 118 1018 only RB
+119 122 1019 one CD
+123 127 1020 race NN
+128 130 1021 at IN
+131 134 1022 the DT
+135 140 1023 World NNP ENT https://en.wikipedia.org/wiki/FINA_Swimming_World_Cup
+141 144 1024 Cup NNP ENT https://en.wikipedia.org/wiki/FINA_Swimming_World_Cup
+145 149 1025 meet NN
+150 152 1026 in IN
+153 159 1027 Sydney NNP CIT https://en.wikipedia.org/wiki/Sydney
+159 160 1028 . .
+161 164 2001 The DT
+165 175 2002 Australian JJ
+176 180 2003 star NN
+181 189 2004 withdrew NN
+190 194 2005 from IN
+195 198 2006 the DT
+199 204 2007 event NN
+205 213 2008 Saturday NNP
+214 217 2009 due JJ
+218 220 2010 to TO
+221 228 2011 illness VB
+229 234 2012 after IN
+235 243 2013 clocking VBG
+244 247 2014 the DT
+248 255 2015 fastest JJS
+256 260 2016 time NN
+261 263 2017 in IN
+264 267 2018 the DT
+268 278 2019 qualifying NN
+279 283 2020 race NN
+284 287 2021 for IN
+288 291 2022 the DT
+292 295 2023 men NNS
+295 297 2024 's POS
+298 307 2025 100-meter JJ
+308 317 2026 freestyle NN
+318 325 2027 earlier RBR
+326 328 2028 in IN
+329 332 2029 the DT
+333 336 2030 day NN
+337 338 2031 ( (
+338 343 2032 47.87 CD
+344 351 2033 seconds NNS
+351 352 2034 ) )
+352 353 2035 . .
+354 363 3001 Australia NNP COU https://en.wikipedia.org/wiki/Australia
+363 365 3002 's POS
+366 371 3003 coach NN
+371 372 3004 , ,
+373 377 3005 Alan NNP PER https://en.wikipedia.org/wiki/Alan_Thompson_(swimming_coach)
+378 386 3006 Thompson NNP PER https://en.wikipedia.org/wiki/Alan_Thompson_(swimming_coach)
+386 387 3007 , ,
+388 392 3008 said VBD
+393 399 3009 Thorpe NNP PER https://en.wikipedia.org/wiki/Ian_Thorpe
+400 403 3010 had VBD
+404 407 3011 not RB
+408 412 3012 been VBN
+413 420 3013 feeling VBG
+421 425 3014 well RB
+426 429 3015 all DT
+430 434 3016 week NN
+434 435 3017 , ,
+436 439 3018 and CC
+440 443 3019 had VBD
+444 450 3020 missed VBN
+451 455 3021 some DT
+456 464 3022 training NN
+465 473 3023 sessions NNS
+473 474 3024 . .
+475 481 4001 Thorpe NNP PER https://en.wikipedia.org/wiki/Ian_Thorpe
+482 486 4002 took VBD
+487 489 4003 an DT
+490 498 4004 extended JJ
+499 504 4005 break NN
+505 509 4006 from IN
+510 521 4007 competition NN
+522 531 4008 following VBG
+532 535 4009 the DT
+536 540 4010 2004 CD ENT https://en.wikipedia.org/wiki/2004_Summer_Olympics
+541 547 4011 Athens NNP ENT https://en.wikipedia.org/wiki/2004_Summer_Olympics
+548 556 4012 Olympics NNPS ENT https://en.wikipedia.org/wiki/2004_Summer_Olympics
+556 557 4013 . .

@@ -1,0 +1,104 @@
+0 6 1001 Afghan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+7 18 1002 authorities NNS ORG https://en.wikipedia.org/wiki/Executive_(government)
+19 22 1003 say VBP
+23 30 1004 U.S-led JJ COU https://en.wikipedia.org/wiki/United_States
+31 40 1005 coalition NN
+41 47 1006 forces NNS
+48 52 1007 have VBP
+53 61 1008 arrested VBN
+62 66 1009 five CD
+67 76 1010 suspected JJ
+77 84 1011 Taleban NN ORG https://en.wikipedia.org/wiki/Taliban
+85 95 1012 insurgents NNS
+96 98 1013 in IN
+99 109 1014 connection NN
+110 114 1015 with IN
+115 117 1016 an DT
+118 124 1017 attack NN
+125 127 1018 on IN
+128 129 1019 a DT
+130 133 1020 oil NN
+134 140 1021 tanker NN
+141 145 1022 that WDT
+146 152 1023 killed VBD
+153 156 1024 two CD
+157 167 1025 Pakistanis NNP COU https://en.wikipedia.org/wiki/Pakistan
+167 168 1026 . .
+169 175 2001 Police NNP ORG https://en.wikipedia.org/wiki/Police
+176 178 2002 in IN
+179 182 2003 the DT
+183 189 2004 Afghan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+190 196 2005 border NN
+197 201 2006 town NN
+202 204 2007 of IN
+205 209 2008 Spin NNP CIT https://en.wikipedia.org/wiki/Spin_Boldak
+210 216 2009 Boldak NNP CIT https://en.wikipedia.org/wiki/Spin_Boldak
+217 221 2010 said VBD
+222 225 2011 the DT
+226 230 2012 five CD
+231 239 2013 suspects NNS
+240 244 2014 were VBD
+245 256 2015 apprehended VBN
+257 266 2016 Wednesday NNP
+267 268 2017 - :
+269 270 2018 a DT
+271 274 2019 day NN
+275 280 2020 after IN
+281 284 2021 the DT
+285 288 2022 two CD
+289 298 2023 Pakistani NNP COU https://en.wikipedia.org/wiki/Pakistan
+299 308 2024 nationals NNS
+309 313 2025 were VBD
+314 320 2026 killed VBN
+321 323 2027 in IN
+324 327 2028 the DT
+328 332 2029 same JJ
+333 337 2030 area NN
+337 338 2031 . .
+339 342 3001 The DT
+343 350 3002 victims NNS
+351 355 3003 were VBD
+356 364 3004 ambushed VBN
+365 370 3005 after IN
+371 374 3006 the DT
+375 390 3007 Pakistani-owned JJ COU https://en.wikipedia.org/wiki/Pakistan
+391 397 3008 tanker NN
+398 407 3009 delivered VBD
+408 412 3010 fuel NN
+413 415 3011 to TO
+416 417 3012 a DT
+418 422 3013 U.S. NNP COU https://en.wikipedia.org/wiki/United_States
+423 427 3014 base NN
+428 430 3015 in IN
+431 439 3016 southern JJ
+440 451 3017 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+451 452 3018 . .
+453 460 4001 Taleban NNP ORG https://en.wikipedia.org/wiki/Taliban
+461 464 4002 and CC
+465 471 4003 allied VBD
+472 481 4004 militants NNS
+482 486 4005 have VBP
+487 494 4006 stepped VBN
+495 497 4007 up RP
+498 505 4008 attacks NNS
+506 508 4009 in IN
+509 515 4010 recent JJ
+516 522 4011 months NNS
+522 523 4012 , ,
+524 529 4013 often RB
+530 537 4014 hitting VBG
+538 542 4015 soft JJ
+543 550 4016 targets NNS
+551 561 4017 associated VBN
+562 566 4018 with IN
+567 576 4019 coalition NN
+577 583 4020 forces NNS
+584 587 4021 and CC
+588 591 4022 the DT
+592 598 4023 Afghan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+599 609 4024 government NN ORG https://en.wikipedia.org/wiki/Government
+610 612 4025 of IN
+613 622 4026 President NNP PER https://en.wikipedia.org/wiki/Hamid_Karzai
+623 628 4027 Hamid NNP PER https://en.wikipedia.org/wiki/Hamid_Karzai
+629 635 4028 Karzai NNP PER https://en.wikipedia.org/wiki/Hamid_Karzai
+635 636 4029 . .

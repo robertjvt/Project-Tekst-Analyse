@@ -1,0 +1,93 @@
+0 10 1001 Venezuelan NNP
+11 20 1002 President NNP PER https://en.wikipedia.org/wiki/Hugo_Ch%C3%A1vez
+21 25 1003 Hugo NNP PER https://en.wikipedia.org/wiki/Hugo_Ch%C3%A1vez
+26 32 1004 Chavez NNP PER https://en.wikipedia.org/wiki/Hugo_Ch%C3%A1vez
+33 35 1005 is VBZ
+36 44 1006 expected VBN
+45 54 1007 Wednesday NNP
+55 57 1008 to TO
+58 65 1009 present VB
+66 69 1010 his PRP$
+70 79 1011 proposals NNS
+80 83 1012 for IN
+84 98 1013 constitutional JJ
+99 105 1014 reform NN
+106 108 1015 to TO
+109 112 1016 the DT
+113 121 1017 National NNP ORG https://en.wikipedia.org/wiki/National_Assembly_(Venezuela)
+122 130 1018 Assembly NNP ORG https://en.wikipedia.org/wiki/National_Assembly_(Venezuela)
+130 131 1019 . .
+132 140 2001 Specific JJ
+141 146 2002 plans NNS
+147 150 2003 for IN
+151 154 2004 the DT
+155 162 2005 reforms NNS
+163 167 2006 have VBP
+168 171 2007 not RB
+172 176 2008 been VBN
+177 185 2009 released VBN
+185 186 2010 , ,
+187 190 2011 but CC
+191 197 2012 Chavez NNP PER https://en.wikipedia.org/wiki/Hugo_Ch%C3%A1vez
+198 201 2013 has VBZ
+202 212 2014 previously RB
+213 217 2015 said VBD
+218 220 2016 he PRP
+221 226 2017 would MD
+227 231 2018 like VB
+232 234 2019 to TO
+235 238 2020 end VB
+239 251 2021 presidential JJ
+252 256 2022 term NN
+257 263 2023 limits NNS
+263 264 2024 . .
+265 274 3001 Currently RB
+275 278 3002 the DT
+279 288 3003 president NN
+289 292 3004 may MD
+293 298 3005 serve VB
+299 301 3006 no DT
+302 306 3007 more JJR
+307 311 3008 than IN
+312 315 3009 two CD
+316 324 3010 six-year JJ
+325 330 3011 terms NNS
+330 331 3012 . .
+332 335 4001 The DT
+336 344 4002 National NNP ORG https://en.wikipedia.org/wiki/National_Assembly_(Venezuela)
+345 353 4003 Assembly NNP ORG https://en.wikipedia.org/wiki/National_Assembly_(Venezuela)
+354 356 4004 is VBZ
+357 365 4005 expected VBN
+366 368 4006 to TO
+369 376 4007 approve VB
+377 380 4008 his PRP$
+381 388 4009 changes NNS
+388 389 4010 , ,
+390 392 4011 as IN
+393 395 4012 it PRP
+396 398 4013 is VBZ
+399 409 4014 controlled VBN
+410 412 4015 by IN
+413 419 4016 Chavez NNP
+420 430 4017 supporters NNS
+430 431 4018 . .
+432 434 5001 If IN
+435 438 5002 the DT
+439 443 5003 plan NN
+444 450 5004 passes VBZ
+451 454 5005 the DT
+455 466 5006 legislature NN
+466 467 5007 , ,
+468 478 5008 Venezuelan NNP
+479 487 5009 citizens VBZ
+488 492 5010 must MD
+493 497 5011 vote VB
+498 500 5012 in IN
+501 502 5013 a DT
+503 513 5014 referendum NN
+514 516 5015 to TO
+517 523 5016 accept VB
+524 526 5017 or CC
+527 533 5018 reject VB
+534 536 5019 it PRP
+536 537 5020 . .

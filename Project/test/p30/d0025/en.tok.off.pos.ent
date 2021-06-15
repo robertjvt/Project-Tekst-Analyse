@@ -1,0 +1,65 @@
+0 1 1001 A DT
+2 6 1002 U.S. NNP COU https://en.wikipedia.org/wiki/United_States
+7 14 1003 soldier NN
+15 18 1004 has VBZ
+19 23 1005 been VBN
+24 30 1006 killed VBN
+31 34 1007 and CC
+35 39 1008 four CD
+40 46 1009 others NNS
+47 54 1010 wounded VBD
+55 57 1011 in IN
+58 59 1012 a DT
+60 64 1013 bomb NN
+65 71 1014 attack NN
+72 74 1015 in IN
+75 87 1016 southeastern JJ
+88 99 1017 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+99 100 1018 . .
+101 104 2001 The DT
+105 109 2002 U.S. NNP COU https://en.wikipedia.org/wiki/United_States
+110 118 2003 military JJ
+119 123 2004 says VBZ
+124 127 2005 the DT
+128 134 2006 troops NNS
+135 139 2007 were VBD
+140 150 2008 conducting VBG
+151 159 2009 security NN
+160 170 2010 operations NNS
+171 175 2011 when WRB
+176 179 2012 the DT
+180 185 2013 blast NN
+186 194 2014 occurred VBD
+195 201 2015 Friday NNP
+202 204 2016 in IN
+205 212 2017 Paktika NNP COU https://en.wikipedia.org/wiki/Paktika_Province
+213 221 2018 province NN
+221 222 2019 , ,
+223 227 2020 near IN
+228 231 2021 the DT
+232 238 2022 border NN
+239 243 2023 with IN
+244 252 2024 Pakistan NNP COU https://en.wikipedia.org/wiki/Pakistan
+252 253 2025 . .
+254 262 3001 American JJ
+263 273 3002 casualties NNS
+274 278 3003 have VBP
+279 283 3004 been VBN
+284 292 3005 mounting VBG
+293 297 3006 amid IN
+298 299 3007 a DT
+300 305 3008 major JJ
+306 313 3009 upsurge NN
+314 316 3010 in IN
+317 325 3011 violence NN
+326 332 3012 across IN
+333 344 3013 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+345 350 3014 ahead RB
+351 353 3015 of IN
+354 365 3016 legislative JJ
+366 375 3017 elections NNS
+376 385 3018 scheduled VBN
+386 388 3019 on IN
+389 398 3020 September NNP
+399 401 3021 18 CD
+401 402 3022 . .

@@ -1,0 +1,103 @@
+0 3 1001 The DT
+4 10 1002 family NN
+11 13 1003 of IN
+14 20 1004 former JJ
+21 27 1005 French JJ COU https://en.wikipedia.org/wiki/France
+28 33 1006 prime JJ
+34 42 1007 minister NN
+43 46 1008 and CC
+47 56 1009 prominent JJ
+57 66 1010 economist NN
+67 74 1011 Raymond NNP PER https://en.wikipedia.org/wiki/Raymond_Barre
+75 80 1012 Barre NNP PER https://en.wikipedia.org/wiki/Raymond_Barre
+81 85 1013 says VBZ
+86 88 1014 he PRP
+89 92 1015 has VBZ
+93 97 1016 died VBN
+98 100 1017 at IN
+101 104 1018 the DT
+105 108 1019 age NN
+109 111 1020 of IN
+112 114 1021 83 CD
+114 115 1022 . .
+116 125 2001 Relatives NNS
+126 130 2002 said VBD
+131 136 2003 Barre NNP PER https://en.wikipedia.org/wiki/Raymond_Barre
+137 141 2004 died VBD
+142 150 2005 Saturday NNP
+151 153 2006 at IN
+154 157 2007 the DT
+158 170 2008 Val-de-Grace NNP ORG https://en.wikipedia.org/wiki/Val-de-Gr%C3%A2ce
+171 179 2009 hospital NN ORG https://en.wikipedia.org/wiki/Val-de-Gr%C3%A2ce
+180 182 2010 in IN
+183 188 2011 Paris NNP CIT https://en.wikipedia.org/wiki/Paris
+188 189 2012 , ,
+190 195 2013 where WRB
+196 198 2014 he PRP
+199 202 2015 had VBD
+203 207 2016 been VBN
+208 220 2017 hospitalized VBN
+221 226 2018 since IN
+227 232 2019 April NNP
+233 237 2020 with IN
+238 243 2021 heart NN
+244 252 2022 problems NNS
+252 253 2023 . .
+254 257 3001 Mr. NNP PER https://en.wikipedia.org/wiki/Raymond_Barre
+258 263 3002 Barre NNP PER https://en.wikipedia.org/wiki/Raymond_Barre
+264 270 3003 served VBD
+271 273 3004 in IN
+274 277 3005 the DT
+278 286 3006 Industry NNP ORG https://en.wikipedia.org/wiki/Ministry_of_the_Economy_and_Finance_(France)
+287 295 3007 Ministry NNP ORG https://en.wikipedia.org/wiki/Ministry_of_the_Economy_and_Finance_(France)
+296 300 3008 from IN
+301 305 3009 1959 CD
+306 313 3010 through IN
+314 318 3011 1962 CD
+319 325 3012 during IN
+326 335 3013 President NNP PER https://en.wikipedia.org/wiki/Charles_de_Gaulle
+336 343 3014 Charles NNP PER https://en.wikipedia.org/wiki/Charles_de_Gaulle
+344 346 3015 de IN PER https://en.wikipedia.org/wiki/Charles_de_Gaulle
+347 352 3016 Gaule NNP PER https://en.wikipedia.org/wiki/Charles_de_Gaulle
+352 354 3017 's POS
+355 369 3018 administration NN
+369 370 3019 . .
+371 373 4001 He PRP
+374 377 4002 was VBD
+378 383 4003 prime JJ
+384 392 4004 minister NN
+393 395 4005 of IN
+396 402 4006 France NNP COU https://en.wikipedia.org/wiki/France
+403 407 4007 from IN
+408 412 4008 1976 CD
+413 420 4009 through IN
+421 425 4010 1981 CD
+425 426 4011 , ,
+427 430 4012 and CC
+431 435 4013 also RB
+436 440 4014 held VBD
+441 444 4015 the DT
+445 450 4016 posts NNS
+451 453 4017 of IN
+454 458 4018 vice NN
+459 468 4019 president NN
+469 471 4020 of IN
+472 475 4021 the DT
+476 484 4022 European NNP ORG https://en.wikipedia.org/wiki/European_Union
+485 490 4023 Union NNP ORG https://en.wikipedia.org/wiki/European_Union
+490 491 4024 , ,
+492 498 4025 French JJ COU https://en.wikipedia.org/wiki/France
+499 508 4026 economics NNS
+509 517 4027 minister NN
+518 521 4028 and CC
+522 527 4029 mayor NN
+528 530 4030 of IN
+531 535 4031 Lyon NNP CIT https://en.wikipedia.org/wiki/Lyon
+535 536 4032 . .
+537 539 5001 He PRP
+540 547 5002 retired VBD
+548 552 5003 from IN
+553 561 5004 politics NNS
+562 564 5005 in IN
+565 569 5006 2002 CD
+569 570 5007 . .

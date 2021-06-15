@@ -1,0 +1,66 @@
+0 8 1001 Hundreds NNS
+9 11 1002 of IN
+12 20 1003 truckers NNS
+21 29 1004 gathered VBN
+30 32 1005 in IN
+33 43 1006 Washington NNP CIT https://en.wikipedia.org/wiki/Washington,_D.C.
+44 46 1007 DC NNP CIT https://en.wikipedia.org/wiki/Washington,_D.C.
+47 49 1008 on IN
+50 55 1009 April NNP
+56 58 1010 28 CD
+59 61 1011 to TO
+62 69 1012 protest VB
+70 73 1013 the DT
+74 78 1014 high JJ
+79 83 1015 cost NN
+84 86 1016 of IN
+87 91 1017 fuel NN
+91 92 1018 . .
+93 96 2001 The DT
+97 105 2002 truckers NNS
+106 109 2003 say VBP
+110 120 2004 Washington NNP COU https://en.wikipedia.org/wiki/Washington_(state)
+121 130 2005 lawmakers NNS
+131 135 2006 have VBP
+136 140 2007 been VBN
+141 144 2008 far RB
+145 148 2009 too RB
+149 155 2010 silent JJ
+156 158 2011 on IN
+159 161 2012 an DT
+162 167 2013 issue NN
+168 172 2014 that WDT
+173 176 2015 has VBZ
+177 182 2016 grave VBN
+183 196 2017 repercussions NNS
+197 200 2018 for IN
+201 204 2019 the DT
+205 209 2020 U.S. NNP COU https://en.wikipedia.org/wiki/United_States_of_America
+210 217 2021 economy NN
+217 218 2022 . .
+220 224 3001 They PRP
+225 231 3002 called VBD
+232 234 3003 on IN
+235 243 3004 Congress NNP ORG https://en.wikipedia.org/wiki/United_States_Congress
+244 246 3005 to TO
+247 251 3006 stop VB
+252 263 3007 subsidizing VBG
+264 267 3008 big JJ
+268 271 3009 oil NN
+272 281 3010 companies NNS
+282 285 3011 and CC
+286 294 3012 demanded VBD
+295 296 3013 a DT
+297 300 3014 cap NN
+301 303 3015 on IN
+304 307 3016 the DT
+308 312 3017 cost NN
+313 315 3018 of IN
+316 320 3019 fuel NN
+320 321 3020 . .
+323 326 4001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
+326 328 4002 's POS
+329 332 4003 Mil NNP
+333 339 4004 Arcega NNP
+340 347 4005 reports NNS
+347 348 4006 . .

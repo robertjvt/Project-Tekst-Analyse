@@ -1,0 +1,94 @@
+0 6 1001 United NNP ORG https://en.wikipedia.org/wiki/United_Nations
+7 14 1002 Nations NNP ORG https://en.wikipedia.org/wiki/United_Nations
+15 27 1003 peacekeeping NN
+28 34 1004 troops NNS
+35 37 1005 in NN
+38 43 1006 Haiti NNP COU https://en.wikipedia.org/wiki/Haiti
+44 48 1007 have VBP
+49 59 1008 surrounded VBN
+60 63 1009 the DT
+64 73 1010 residence VBN
+74 76 1011 of NNP
+77 83 1012 ousted NNP
+84 93 1013 President NNP PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+94 107 1014 Jean-Bertrand , PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+108 116 1015 Aristide VBG PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+116 117 1016 , TO
+118 129 1017 threatening RB
+130 132 1018 to VB
+133 143 1019 forcefully VBN
+144 149 1020 evict NNS
+150 161 1021 demobilized WP
+162 170 1022 soldiers VBP
+171 174 1023 who VBN
+175 179 1024 have DT
+180 186 1025 seized NN
+187 190 1026 the .
+191 199 1027 compound NNP
+199 200 1028 . POS
+201 206 2001 Haiti JJ COU https://en.wikipedia.org/wiki/Haiti
+206 208 2002 's NN
+209 216 2003 interim VBZ
+217 227 2004 government VBN
+228 231 2005 has DT
+232 239 2006 ordered NNS
+240 243 2007 the IN
+244 250 2008 rebels IN
+251 254 2009 out DT
+255 257 2010 of NN
+258 261 2011 the IN
+262 270 2012 compound DT
+271 273 2013 in NN
+274 277 2014 the IN
+278 284 2015 suburb NNP
+285 287 2016 of .
+288 295 2017 Tabarre DT COU https://en.wikipedia.org/wiki/Tabarre
+295 296 2018 . NN
+297 300 3001 The VBD
+301 311 3002 government NNP
+312 316 3003 said NNS
+317 325 3004 Thursday NNS
+326 330 3005 U.N. MD ORG https://en.wikipedia.org/wiki/United_Nations_peacekeeping
+331 337 3006 troops VBZ ORG https://en.wikipedia.org/wiki/United_Nations_peacekeeping
+338 342 3007 will JJ
+343 345 3008 do TO
+346 354 3009 whatever VB
+355 357 3010 is DT
+358 367 3011 necessary NN
+368 370 3012 to .
+371 376 3013 clear DT
+377 380 3014 the NN
+381 390 3015 residence NNS
+390 391 3016 . NNS
+392 395 4001 The ,
+396 407 4002 ex-soldiers WP
+408 409 4003 - VBD
+410 413 4004 who VB
+414 420 4005 helped DT
+421 425 4006 lead CD
+426 429 4007 the HYPH
+430 440 4008 three-week NN
+441 450 4009 rebellion NN
+451 455 4010 that WDT
+456 462 4011 ousted VBD
+463 466 4012 Mr. NNP PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+467 475 4013 Aristide NNP PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+476 478 4014 in IN
+479 487 4015 February NNP
+488 489 4016 - HYPH
+490 495 4017 moved VBN
+496 500 4018 into IN
+501 504 4019 the DT
+505 513 4020 compound NN
+514 516 4021 on IN
+517 526 4022 Wednesday NNP
+526 527 4023 . .
+528 531 5001 Mr. NNP PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+532 540 5002 Aristide NNP PER https://en.wikipedia.org/wiki/Jean-Bertrand_Aristide
+541 543 5003 is VBZ
+544 546 5004 in IN
+547 552 5005 exile NN
+553 555 5006 in IN
+556 561 5007 South NNP COU https://en.wikipedia.org/wiki/South_Africa
+562 568 5008 Africa NNP COU https://en.wikipedia.org/wiki/South_Africa
+568 569 5009 . .

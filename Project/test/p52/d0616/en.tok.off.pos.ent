@@ -1,0 +1,68 @@
+1 4 1001 The DT
+5 9 1002 U.S. NNP ORG https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission
+10 18 1003 Consumer NNP ORG https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission
+19 26 1004 Product NNP ORG https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission
+27 33 1005 Safety NNP ORG https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission
+34 44 1006 Commission NNP ORG https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission
+45 46 1007 [ NNP
+46 50 1008 CPSC NNP ORG https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission
+50 51 1009 ] NNP
+52 55 1010 has VBZ
+56 64 1011 launched VBN
+65 66 1012 a DT
+67 70 1013 new JJ
+71 78 1014 program NN
+79 81 1015 to TO
+82 88 1016 screen VB
+89 93 1017 toys NNS
+94 97 1018 and CC
+98 103 1019 other JJ
+104 111 1020 imports NNS
+112 115 1021 for IN
+116 125 1022 potential JJ
+126 132 1023 safety NN
+133 140 1024 hazards NNS
+140 141 1025 . .
+143 150 2001 Working VBG
+151 155 2002 with IN
+156 160 2003 U.S. NNP ORG https://en.wikipedia.org/wiki/U.S._Customs_and_Border_Protection
+161 168 2004 Customs NNP ORG https://en.wikipedia.org/wiki/U.S._Customs_and_Border_Protection
+169 175 2005 agents NNS
+175 176 2006 , ,
+177 180 2007 the DT
+181 184 2008 new JJ
+185 191 2009 import NN
+192 204 2010 surveillance NN
+205 212 2011 program NN
+213 218 2012 plans NNS
+219 221 2013 to TO
+222 226 2014 test VB
+227 235 2015 selected VBN
+236 244 2016 products NNS
+245 247 2017 at IN
+248 255 2018 various JJ
+256 261 2019 ports NNS
+262 264 2020 in IN
+265 268 2021 the DT
+269 275 2022 United NNP COU https://en.wikipedia.org/wiki/United_States
+276 282 2023 States NNPS COU https://en.wikipedia.org/wiki/United_States
+283 285 2024 to TO
+286 290 2025 make VB
+291 295 2026 sure JJ
+296 299 2027 the DT
+300 308 2028 products NNS
+309 312 2029 are VBP
+313 317 2030 safe JJ
+318 324 2031 before IN
+325 329 2032 they PRP
+330 335 2033 enter VBP
+336 339 2034 the DT
+340 344 2035 U.S. NNP COU https://en.wikipedia.org/wiki/United_States
+345 351 2036 market NN
+351 352 2037 . .
+353 356 3001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
+356 358 3002 's POS
+359 362 3003 Mil NNP
+363 369 3004 Arcega NNP
+370 377 3005 reports NNS
+377 378 3006 . .
