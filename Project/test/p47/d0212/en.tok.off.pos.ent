@@ -1,0 +1,97 @@
+0 11 1001 Authorities NNS ORG https://en.wikipedia.org/wiki/Executive_(government)
+12 16 1002 have VBP
+17 21 1003 lost VBN
+22 29 1004 control NN
+30 32 1005 of IN
+33 34 1006 a DT
+35 43 1007 southern JJ
+44 55 1008 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+56 64 1009 district NN
+65 70 1010 after IN
+71 78 1011 Taleban NNP ORG https://en.wikipedia.org/wiki/Taliban
+79 87 1012 fighters NNS
+88 96 1013 attacked VBD
+97 100 1014 and CC
+101 109 1015 disarmed VBD
+110 116 1016 police NNS ORG https://en.wikipedia.org/wiki/Police
+117 121 1017 late JJ
+122 130 1018 Thursday NNP
+130 131 1019 . .
+132 139 2001 Reports NNS
+140 144 2002 from IN
+145 149 2003 Musa NNP CIT https://en.wikipedia.org/wiki/Musa_Qala
+150 154 2004 Qala NNP CIT https://en.wikipedia.org/wiki/Musa_Qala
+155 157 2005 in IN
+158 161 2006 the DT
+162 170 2007 southern JJ
+171 179 2008 province NN
+180 182 2009 of IN
+183 190 2010 Helmand NNP COU https://en.wikipedia.org/wiki/Helmand_Province
+191 194 2011 say VBP
+195 203 2012 hundreds NNS
+204 206 2013 of IN
+207 214 2014 Taleban NNP ORG https://en.wikipedia.org/wiki/Taliban
+215 223 2015 fighters NNS
+224 230 2016 seized VBD
+231 234 2017 the DT
+235 239 2018 town NN
+239 240 2019 , ,
+241 251 2020 destroying VBG
+252 256 2021 part NN
+257 259 2022 of IN
+260 263 2023 its PRP$
+264 272 2024 district NN
+273 285 2025 headquarters NN
+285 286 2026 . .
+287 290 3001 The DT
+291 301 3002 Associated NNP ENT https://en.wikipedia.org/wiki/Associated_Press
+302 307 3003 press NN ENT https://en.wikipedia.org/wiki/Associated_Press
+308 314 3004 quotes VBZ
+315 316 3005 a DT
+317 326 3006 spokesman NN
+327 330 3007 for IN
+331 335 3008 NATO NNP ORG https://en.wikipedia.org/wiki/NATO
+336 342 3009 forces NNS
+343 345 3010 in IN
+346 357 3011 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+357 358 3012 , ,
+359 366 3013 Colonel NNP
+367 370 3014 Tom NNP
+371 378 3015 Collins NNP
+378 379 3016 , ,
+380 382 3017 as IN
+383 389 3018 saying VBG
+390 392 3019 an DT
+393 400 3020 unknown JJ
+401 407 3021 number NN
+408 410 3022 of IN
+411 420 3023 militants NNS
+421 431 3024 apparently RB
+432 439 3025 entered VBD
+440 444 3026 Musa NNP CIT https://en.wikipedia.org/wiki/Musa_Qala
+445 449 3027 Qala NNP CIT https://en.wikipedia.org/wiki/Musa_Qala
+449 450 3028 . .
+451 458 4001 British JJ COU https://en.wikipedia.org/wiki/United_Kingdom
+459 465 4002 forces NNS
+466 472 4003 pulled VBD
+473 476 4004 out IN
+477 479 4005 of IN
+480 483 4006 the DT
+484 488 4007 town NN
+489 493 4008 last JJ
+494 498 4009 year NN
+499 504 4010 after IN
+505 506 4011 a DT
+507 512 4012 peace NN
+513 517 4013 deal NN
+518 521 4014 was VBD
+522 528 4015 signed VBN
+529 536 4016 between IN
+537 542 4017 local JJ
+543 549 4018 elders NNS
+550 553 4019 and CC
+554 557 4020 the DT
+558 565 4021 Helmand NNP COU https://en.wikipedia.org/wiki/Helmand_Province
+566 576 4022 provincial JJ ORG https://en.wikipedia.org/wiki/State_government
+577 587 4023 government NN ORG https://en.wikipedia.org/wiki/State_government
+587 588 4024 . .

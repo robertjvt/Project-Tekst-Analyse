@@ -1,0 +1,104 @@
+0 4 1001 NATO NNP ORG https://en.wikipedia.org/wiki/NATO
+5 9 1002 said VBD
+11 14 1003 two CD
+15 19 1004 U.S. NNP COU https://en.wikipedia.org/wiki/United_States
+20 28 1005 soldiers NNS
+29 33 1006 have VBP
+34 38 1007 been VBN
+39 45 1008 killed VBN
+46 48 1009 in IN
+49 50 1010 a DT
+51 55 1011 bomb NN
+56 61 1012 blast NN
+62 64 1013 in IN
+65 73 1014 southern JJ
+74 85 1015 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+85 86 1016 . .
+88 91 2001 The DT
+92 100 2002 NATO-led JJ
+101 106 2003 force NN
+107 115 2004 released VBN
+116 118 2005 no DT
+119 124 2006 other JJ
+125 132 2007 details NNS
+133 135 2008 of IN
+136 139 2009 the DT
+140 148 2010 incident NN
+148 149 2011 . .
+151 154 3001 The DT
+155 159 3002 U.S. NNP ORG https://en.wikipedia.org/wiki/United_States_Armed_Forces
+160 168 3003 military JJ ORG https://en.wikipedia.org/wiki/United_States_Armed_Forces
+169 178 3004 confirmed VBD
+179 182 3005 the DT
+183 191 3006 soldiers NNS
+192 196 3007 were VBD
+197 205 3008 American JJ
+205 206 3009 . .
+208 212 4001 July NNP
+213 216 4002 has VBZ
+217 221 4003 been VBN
+222 225 4004 the DT
+226 235 4005 deadliest JJS
+236 241 4006 month NN
+242 245 4007 for IN
+246 259 4008 international JJ
+260 266 4009 forces NNS
+267 269 4010 in IN
+270 281 4011 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+282 287 4012 since IN
+288 291 4013 the DT
+292 303 4014 Taliban-led JJ
+304 314 4015 government NN
+315 318 4016 was VBD
+319 325 4017 ousted VBN
+326 328 4018 in IN
+329 333 4019 2001 CD
+333 334 4020 . .
+336 338 5001 In IN
+339 345 5002 recent JJ
+346 351 5003 weeks NNS
+351 352 5004 , ,
+353 358 5005 4,000 CD
+359 363 5006 U.S. NNP COU https://en.wikipedia.org/wiki/United_States
+364 371 5007 Marines NNPS
+371 372 5008 , ,
+373 378 5009 along IN
+379 383 5010 with IN
+384 391 5011 British JJ
+392 395 5012 and CC
+396 402 5013 Afghan NNP
+403 409 5014 troops NNS
+409 410 5015 , ,
+411 415 5016 have VBP
+416 424 5017 launched VBN
+425 426 5018 a DT
+427 432 5019 major JJ
+433 442 5020 offensive NN
+443 445 5021 in IN
+446 454 5022 southern JJ
+455 466 5023 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+466 467 5024 , ,
+468 477 5025 targeting VBG
+478 485 5026 Taliban JJ ORG https://en.wikipedia.org/wiki/Taliban
+486 496 5027 insurgents NNS
+497 499 5028 in IN
+500 505 5029 their PRP$
+506 517 5030 traditional JJ
+518 529 5031 strongholds NNS
+529 530 5032 . .
+534 537 6001 The DT
+538 547 6002 operation NN
+548 550 6003 is VBZ
+551 556 6004 aimed VBN
+557 559 6005 at IN
+560 568 6006 ensuring VBG
+569 577 6007 security NN
+578 583 6008 ahead RB
+584 586 6009 of IN
+587 598 6010 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+598 600 6011 's POS
+601 613 6012 presidential JJ
+614 622 6013 election NN
+623 627 6014 next JJ
+628 633 6015 month NN
+633 634 6016 . .

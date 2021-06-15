@@ -1,0 +1,88 @@
+1 5 1001 Long RB
+6 12 1002 before IN
+13 16 1003 the DT
+17 24 1004 Olympic NNP SPO https://en.wikipedia.org/wiki/Olympic_Games
+25 30 1005 games NNS SPO https://en.wikipedia.org/wiki/Olympic_Games
+31 33 1006 in IN
+34 41 1007 Beijing NNP CIT https://en.wikipedia.org/wiki/Beijing
+42 49 1008 dazzled VBD
+50 53 1009 the DT
+54 59 1010 world NN
+59 60 1011 , ,
+61 66 1012 China NNP COU https://en.wikipedia.org/wiki/China
+67 70 1013 had VBD
+71 80 1014 generated VBN
+81 89 1015 interest NN
+90 95 1016 among IN
+96 106 1017 filmmakers NNS
+106 107 1018 . .
+109 112 2001 One CD
+113 115 2002 of IN
+116 121 2003 those DT
+122 132 2004 filmmakers NNS
+133 135 2005 is VBZ
+136 139 2006 Sue NNP
+140 148 2007 Williams NNP
+148 149 2008 , ,
+150 153 2009 who WP
+154 157 2010 has VBZ
+158 166 2011 produced VBN
+167 168 2012 a DT
+169 175 2013 number NN
+176 178 2014 of IN
+179 192 2015 documentaries NNS
+193 198 2016 about IN
+199 204 2017 China NNP COU https://en.wikipedia.org/wiki/China
+205 207 2018 in IN
+208 211 2019 the DT
+212 216 2020 last JJ
+217 220 2021 two CD
+221 228 2022 decades NNS
+228 229 2023 . .
+231 234 3001 Her PRP$
+235 241 3002 latest JJS
+242 246 3003 work NN
+247 248 3004 " NNP
+248 253 3005 Young NNP
+254 255 3006 & CC
+256 264 3007 Restless NNP
+265 267 3008 in IN
+268 273 3009 China NNP
+273 274 3010 " NNP
+275 278 3011 has VBZ
+279 283 3012 been VBN
+284 293 3013 broadcast VBN
+294 296 3014 on IN
+297 306 3015 Frontline NNP ENT https://en.wikipedia.org/wiki/Frontline_(American_TV_program)
+306 307 3016 , ,
+308 309 3017 a DT
+310 317 3018 program NN
+318 323 3019 which WDT
+324 328 3020 airs VBZ
+329 331 3021 on IN
+332 335 3022 PBS NNP ORG https://en.wikipedia.org/wiki/PBS
+335 336 3023 , ,
+337 339 3024 an DT
+340 348 3025 American JJ COU https://en.wikipedia.org/wiki/United_States
+349 359 3026 television NN
+360 367 3027 network NN
+367 368 3028 . .
+369 372 4001 VOA NNP ORG https://en.wikipedia.org/wiki/Voice_of_America
+372 374 4002 's POS
+375 377 4003 Yi NNP
+378 382 4004 Suli NNP
+383 389 4005 talked VBD
+390 398 4006 recently RB
+399 403 4007 with IN
+404 407 4008 Sue NNP
+408 416 4009 Williams NNP
+417 422 4010 about IN
+423 426 4011 her PRP$
+427 435 4012 interest NN
+436 438 4013 in IN
+439 444 4014 China NNP COU https://en.wikipedia.org/wiki/China
+444 445 4015 . .
+447 453 5001 Elaine NNP
+454 456 5002 Lu NNP
+457 465 5003 narrates NNS
+465 466 5004 . .

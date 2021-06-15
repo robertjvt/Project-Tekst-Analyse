@@ -1,0 +1,99 @@
+0 1 1001 A DT
+2 10 1002 moderate NN
+11 21 1003 earthquake NN
+22 28 1004 struck NN
+29 36 1005 central JJ
+37 43 1006 Mexico NNP COU https://en.wikipedia.org/wiki/Mexico
+44 50 1007 Friday NNP
+50 51 1008 , ,
+52 59 1009 forcing VBG
+60 69 1010 residents NNS
+70 73 1011 and CC
+74 80 1012 office NN
+81 88 1013 workers NNS
+89 91 1014 to TO
+92 100 1015 evacuate NN
+101 110 1016 buildings NNS
+111 113 1017 in IN
+114 120 1018 Mexico NNP CIT https://en.wikipedia.org/wiki/Mexico_City
+121 125 1019 City NNP CIT https://en.wikipedia.org/wiki/Mexico_City
+125 126 1020 . .
+127 136 2001 Officials NNS
+137 140 2002 say VB
+141 143 2003 no DT
+144 149 2004 major JJ
+150 158 2005 injuries NNS
+159 161 2006 or CC
+162 169 2007 damages NNS
+170 174 2008 were VBD
+175 186 2009 immediately RB
+187 195 2010 reported VBD
+195 196 2011 . .
+197 200 3001 The DT
+201 205 3002 U.S. NNP ORG https://en.wikipedia.org/wiki/United_States_Geological_Survey
+206 216 3003 Geological JJ ORG https://en.wikipedia.org/wiki/United_States_Geological_Survey
+217 223 3004 Survey NN ORG https://en.wikipedia.org/wiki/United_States_Geological_Survey
+224 233 3005 estimates NNS
+234 237 3006 the DT
+238 248 3007 earthquake NN
+248 250 3008 's POS
+251 260 3009 magnitude NN
+261 263 3010 at IN
+264 268 3011 6.0. CD
+269 271 3012 An DT
+272 282 3013 aftershock NN
+283 287 3014 that IN
+288 296 3015 measured VBN
+297 300 3016 5.5 CD
+301 304 3017 hit NN
+305 306 3018 a DT
+307 310 3019 few JJ
+311 316 3020 hours NNS
+317 322 3021 later RB
+322 323 3022 . .
+324 327 4001 The DT
+328 334 4002 center NN ORG
+335 339 4003 says VBZ
+340 343 4004 the DT
+344 354 4005 earthquake NN
+354 355 4006 , ,
+356 361 4007 which WDT
+362 365 4008 hit NN
+366 372 4009 Friday NNP
+373 380 4010 morning NN
+381 386 4011 local JJ
+387 391 4012 time NN
+391 392 4013 , ,
+393 396 4014 was VBD
+397 405 4015 centered VBN
+406 408 4016 in IN
+409 412 4017 the DT
+413 425 4018 southwestern NN
+426 431 4019 state NN
+432 434 4020 of IN
+435 444 4021 Michoacan JJ COU https://en.wikipedia.org/wiki/Michoac%C3%A1n
+444 445 4022 , ,
+446 451 4023 about IN
+452 455 4024 200 CD
+456 466 4025 kilometers NNS
+467 476 4026 southwest NN
+477 479 4027 of IN
+480 486 4028 Mexico NNP CIT https://en.wikipedia.org/wiki/Mexico_City
+487 491 4029 City NNP CIT https://en.wikipedia.org/wiki/Mexico_City
+491 492 4030 . .
+493 495 5001 In IN
+496 500 5002 1985 CD
+500 501 5003 , ,
+502 503 5004 a DT
+504 507 5005 7.8 CD
+508 517 5006 magnitude NN
+518 528 5007 earthquake NN
+529 531 5008 in IN
+532 538 5009 Mexico NNP CIT https://en.wikipedia.org/wiki/Mexico_City
+539 543 5010 City NNP CIT https://en.wikipedia.org/wiki/Mexico_City
+544 550 5011 killed VBN
+551 555 5012 more RBR
+556 560 5013 than IN
+561 567 5014 10,000 CD
+568 574 5015 people NNS
+574 575 5016 . .

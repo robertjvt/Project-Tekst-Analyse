@@ -1,0 +1,96 @@
+0 9 1001 Militants NNS
+10 12 1002 in IN
+13 17 1003 Iraq NNP COU https://en.wikipedia.org/wiki/Iraq
+18 27 1004 detonated VBD
+28 35 1005 several JJ
+36 44 1006 roadside JJ
+45 50 1007 bombs NNS
+51 57 1008 Friday NNP
+57 58 1009 , ,
+59 66 1010 killing VBG
+67 69 1011 at IN
+70 75 1012 least JJS
+76 79 1013 two CD
+80 86 1014 people NNS
+87 90 1015 and CC
+91 99 1016 injuring VBG
+100 105 1017 eight CD
+106 112 1018 others NNS
+112 113 1019 . .
+114 120 2001 Police NNP
+121 123 2002 in IN
+124 128 2003 Iraq NNP COU https://en.wikipedia.org/wiki/Iraq
+129 132 2004 say VBP
+133 143 2005 insurgents NNS
+144 147 2006 set VBD
+148 151 2007 off RP
+152 153 2008 a DT
+154 158 2009 bomb NN
+159 163 2010 near IN
+164 165 2011 a DT
+166 170 2012 U.S. NNP ORG https://en.wikipedia.org/wiki/United_States_Army
+171 175 2013 Army NNP ORG https://en.wikipedia.org/wiki/United_States_Army
+176 182 2014 convoy NN
+183 185 2015 in IN
+186 193 2016 Baghdad NNP CIT https://en.wikipedia.org/wiki/Baghdad
+193 195 2017 's POS
+196 205 2018 exclusive JJ
+206 213 2019 Mansour NNP COU https://en.wikipedia.org/wiki/Mansour_district
+214 222 2020 district NN COU https://en.wikipedia.org/wiki/Mansour_district
+222 223 2021 . .
+224 227 3001 The DT
+228 237 3002 explosion NN
+238 244 3003 killed VBD
+245 248 3004 one CD
+249 255 3005 person NN
+256 259 3006 and CC
+260 267 3007 wounded VBD
+268 270 3008 at IN
+271 276 3009 least JJS
+277 281 3010 five CD
+282 288 3011 others NNS
+289 291 3012 -- :
+292 296 3013 some DT
+297 306 3014 seriously RB
+306 307 3015 . .
+308 314 4001 Across IN
+315 319 4002 town NN
+319 320 4003 , ,
+321 322 4004 a DT
+323 327 4005 bomb NN
+328 337 4006 targeting VBG
+338 343 4007 Iraqi NNP ORG https://en.wikipedia.org/wiki/National_Guard_(Iraq)
+344 352 4008 National NNP ORG https://en.wikipedia.org/wiki/National_Guard_(Iraq)
+353 358 4009 Guard NNP ORG https://en.wikipedia.org/wiki/National_Guard_(Iraq)
+359 365 4010 troops VBZ
+366 372 4011 killed VBD
+373 376 4012 one CD
+377 383 4013 person NN
+384 387 4014 and CC
+388 395 4015 wounded VBD
+396 398 4016 at IN
+399 404 4017 least JJS
+405 410 4018 three CD
+411 417 4019 others NNS
+417 418 4020 . .
+419 422 5001 The DT
+423 430 5002 attacks NNS
+431 439 5003 followed VBD
+440 444 5004 twin JJ
+445 452 5005 suicide JJ
+453 461 5006 car-bomb NN
+462 468 5007 blasts NNS
+469 477 5008 Thursday NNP
+478 482 5009 that IN
+483 489 5010 killed VBD
+490 492 5011 at IN
+493 498 5012 least JJS
+499 501 5013 15 CD
+502 508 5014 people NNS
+509 512 5015 and CC
+513 520 5016 wounded VBD
+521 525 5017 more JJR
+526 530 5018 than IN
+531 533 5019 30 CD
+534 540 5020 others NNS
+540 541 5021 . .

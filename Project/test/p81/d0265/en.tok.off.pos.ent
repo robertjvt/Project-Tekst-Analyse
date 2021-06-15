@@ -1,0 +1,84 @@
+0 3 1001 The DT
+4 10 1002 Global JJ ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault
+11 15 1003 Seed NN ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault
+16 21 1004 Vault NN ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault
+22 28 1005 opened VBN
+29 33 1006 near IN
+34 37 1007 the DT
+38 43 1008 North NN NAT https://en.wikipedia.org/wiki/North_Pole
+44 48 1009 Pole NN NAT https://en.wikipedia.org/wiki/North_Pole
+49 51 1010 on IN
+52 54 1011 26 CD
+55 63 1012 February NNP
+63 64 1013 , ,
+65 68 1014 and CC
+69 71 1015 an DT
+72 80 1016 Internet NN
+81 88 1017 project NN
+89 94 1018 aimed VBN
+95 97 1019 at IN
+98 107 1020 promoting VBG
+108 120 1021 biodiversity NN
+121 125 1022 went VBD
+126 128 1023 on IN
+129 133 1024 line NN
+133 134 1025 . .
+135 138 2001 The DT
+139 148 2002 so-called JJ
+149 150 2003 " NN ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault 
+150 158 2004 doomsday NN ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault
+158 159 2005 " NN ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault
+160 165 2006 vault NN ORG https://en.wikipedia.org/wiki/Svalbard_Global_Seed_Vault
+166 168 2007 is VBZ
+169 171 2008 in IN
+172 175 2009 the DT
+176 182 2010 remote NN
+183 192 2011 Norwegian JJ COU https://en.wikipedia.org/wiki/Svalbard
+193 204 2012 archipelago NN COU https://en.wikipedia.org/wiki/Svalbard
+205 207 2013 of IN COU https://en.wikipedia.org/wiki/Svalbard
+208 216 2014 Svalbard NN COU https://en.wikipedia.org/wiki/Svalbard
+217 220 2015 and CC
+221 223 2016 is VBZ
+224 232 2017 designed VBN
+233 235 2018 to TO
+236 243 2019 protect NN
+244 252 2020 millions NNS
+253 255 2021 of IN
+256 261 2022 seeds NNS
+262 266 2023 from IN
+267 274 2024 climate NN
+275 281 2025 change NN
+282 285 2026 and CC
+286 291 2027 other JJ
+292 301 2028 disasters NNS
+301 302 2029 . .
+304 307 3001 The DT
+308 320 3002 Encyclopedia NNP ORG https://en.wikipedia.org/wiki/Encyclopedia_of_Lifes
+321 323 3003 of IN ORG https://en.wikipedia.org/wiki/Encyclopedia_of_Life
+324 328 3004 Life NN ORG https://en.wikipedia.org/wiki/Encyclopedia_of_Life
+329 332 3005 web NN
+333 339 3006 siteis NN
+340 344 3007 just RB
+345 346 3008 a DT
+347 352 3009 click NN
+353 357 3010 away RB
+358 361 3011 and CC
+362 364 3012 is VBZ
+365 370 3013 meant NN
+371 373 3014 as IN
+374 375 3015 a DT
+376 382 3016 source NN
+383 385 3017 of IN
+386 397 3018 information NN
+398 403 3019 about IN
+404 407 3020 all DT
+408 414 3021 living NN
+415 421 3022 things NNS
+421 422 3023 . .
+424 427 4001 VOA NN ORG https://en.wikipedia.org/wiki/Voice_of_America
+427 429 4002 's POS
+430 434 4003 Paul NNP
+435 440 4004 Sisco NN
+441 444 4005 has VBZ
+445 449 4006 more RBR
+449 450 4007 . .
