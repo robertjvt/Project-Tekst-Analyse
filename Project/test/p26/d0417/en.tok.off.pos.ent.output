@@ -1,0 +1,98 @@
+0 6 1001 Turkey NNP COU https://en.wikipedia.org/wiki/Ankara
+7 10 1002 has VBZ
+11 19 1003 detained VBN
+20 22 1004 10 CD
+23 29 1005 people NNS
+30 34 1006 with IN
+35 44 1007 suspected JJ
+45 50 1008 links NNS
+51 53 1009 to TO
+54 57 1010 the DT
+58 66 1011 al-Qaida JJ
+67 76 1012 terrorist JJ
+77 84 1013 network NN
+84 85 1014 . .
+86 91 2001 Among IN
+92 97 2002 those DT
+98 106 2003 arrested VBN
+107 110 2004 was VBD
+111 112 2005 a DT
+113 119 2006 lawyer NN
+120 123 2007 who WP
+124 134 2008 identified VBD
+135 142 2009 himself PRP
+143 145 2010 as IN
+146 149 2011 the DT
+150 156 2012 leader NN
+157 159 2013 of IN
+160 163 2014 the DT
+164 169 2015 group NN
+170 172 2016 in IN
+173 179 2017 Turkey NNP
+179 180 2018 . .
+181 184 3001 The DT COU https://en.wikipedia.org/wiki/Islamic_State_of_Iraq_and_the_Levant
+185 193 3002 official JJ
+194 202 3003 Anatolia NNP
+203 207 3004 news NN
+208 214 3005 agency NN ORG -
+215 219 3006 said VBD ORG -
+220 228 3007 Saturday NNP ORG -
+229 232 3008 the DT
+233 241 3009 suspects NNS
+242 246 3010 were VBD
+247 255 3011 detained VBN
+256 258 3012 in IN
+259 271 3013 simultaneous JJ
+272 282 3014 operations NNS
+283 288 3015 begun VBN
+289 291 3016 in IN
+292 300 3017 November NNP
+301 303 3018 in IN
+304 307 3019 the DT
+308 315 3020 capital NN
+315 316 3021 , ,
+317 323 3022 Ankara NNP
+323 324 3023 , ,
+325 333 3024 Istanbul NNP CIT https://en.wikipedia.org/wiki/Istanbul
+334 337 3025 and CC
+338 341 3026 the DT CIT -
+342 349 3027 western JJ
+350 354 3028 city NN
+355 357 3029 of IN
+358 363 3030 Izmir NNP
+363 364 3031 . .
+365 371 4001 Turkey NNP CIT https://en.wikipedia.org/wiki/Turkey_national_football_team
+372 375 4002 has VBZ
+376 384 4003 suffered VBN COU -
+385 392 4004 several JJ
+393 400 4005 attacks NNS
+401 407 4006 blamed VBN
+408 410 4007 on IN
+411 419 4008 al-Qaida NN
+419 420 4009 . .
+421 423 5001 In IN
+424 432 5002 November NNP
+433 437 5003 2003 CD
+437 438 5004 , ,
+439 443 5005 more JJR
+444 448 5006 than IN
+449 451 5007 60 CD
+452 458 5008 people NNS
+459 463 5009 were VBD
+464 470 5010 killed VBN
+471 473 5011 in IN
+474 482 5012 bombings NNS
+483 485 5013 of IN
+486 489 5014 two CD
+490 500 5015 synagogues NNS
+500 501 5016 , ,
+502 505 5017 the DT
+506 513 5018 British JJ
+514 523 5019 Consulate NNP
+524 527 5020 and CC
+528 529 5021 a DT
+530 534 5022 bank NN
+535 541 5023 office NN
+542 544 5024 in IN
+545 553 5025 Istanbul NNP
+553 554 5026 . .

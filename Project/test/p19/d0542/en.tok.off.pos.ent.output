@@ -1,0 +1,81 @@
+0 3 1001 Pop NN
+4 12 1002 musician NN
+13 17 1003 John NNP PER https://en.wikipedia.org/wiki/John_Mayer
+18 23 1004 Mayer NNP PER https://en.wikipedia.org/wiki/John_Mayer
+24 28 1005 will MD
+29 37 1006 headline VB
+38 40 1007 an DT
+41 49 1008 upcoming JJ
+50 57 1009 concert NN
+58 60 1010 to TO
+61 70 1011 celebrate VB
+71 74 1012 the DT
+75 79 1013 10th JJ
+80 91 1014 anniversary NN
+92 94 1015 of IN
+95 99 1016 Save NNP
+100 103 1017 The DT
+104 109 1018 Music NNP
+109 110 1019 . .
+111 118 2001 Founded VBN
+119 121 2002 by IN
+122 125 2003 the DT
+126 129 2004 VH1 NNP ORG -
+130 140 2005 television NN
+141 148 2006 network NN
+149 151 2007 to TO
+152 159 2008 promote VB
+160 165 2009 music NN
+166 175 2010 education NN
+176 178 2011 in IN
+179 183 2012 U.S. NNP COU https://en.wikipedia.org/wiki/U.S._state
+184 190 2013 public JJ
+191 198 2014 schools NNS
+198 199 2015 , ,
+200 203 2016 the DT
+204 216 2017 organization NN
+217 220 2018 has VBZ
+221 231 2019 reportedly RB
+232 240 2020 provided VBN
+241 242 2021 $ $
+242 244 2022 34 CD
+245 252 2023 million CD
+253 258 2024 worth NN
+259 261 2025 of IN
+262 273 2026 instruments NNS
+274 276 2027 to IN
+277 284 2028 schools NNS
+285 291 2029 around IN
+292 295 2030 the DT
+296 303 2031 country NN
+303 304 2032 . .
+305 314 3001 Scheduled VBN
+315 318 3002 for IN
+319 328 3003 September NNP
+329 331 3004 20 CD
+332 334 3005 at IN
+335 338 3006 New NNP CIT https://en.wikipedia.org/wiki/New_York_City
+339 343 3007 York NNP CIT https://en.wikipedia.org/wiki/New_York_City
+344 348 3008 City NNP CIT https://en.wikipedia.org/wiki/New_York_City
+348 350 3009 's POS
+351 358 3010 Lincoln NNP CIT https://en.wikipedia.org/wiki/Robert_Todd_Lincoln
+359 365 3011 Center NNP
+365 366 3012 , ,
+367 370 3013 the DT
+371 378 3014 concert NN
+379 383 3015 will MD
+384 388 3016 also RB
+389 396 3017 feature VB
+397 399 3018 50 CD
+400 402 3019 of IN
+403 406 3020 the DT
+407 415 3021 students NNS
+416 419 3022 the DT
+420 432 3023 organization NN
+433 436 3024 has VBZ
+437 443 3025 helped VBN
+444 448 3026 over IN
+449 452 3027 the DT
+453 457 3028 past JJ
+458 464 3029 decade NN
+464 465 3030 . .

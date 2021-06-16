@@ -1,0 +1,87 @@
+0 3 1001 The DT
+4 9 1002 White NNP ORG https://en.wikipedia.org/wiki/White_House_Correspondents%27_Association
+10 15 1003 House NNP ORG https://en.wikipedia.org/wiki/White_House_Correspondents%27_Association
+16 20 1004 said VBD
+21 25 1005 Vice NNP
+26 35 1006 President NNP
+36 39 1007 Joe NNP PER https://en.wikipedia.org/wiki/Joe_Biden
+40 45 1008 Biden NNP PER https://en.wikipedia.org/wiki/Joe_Biden
+46 50 1009 will MD
+51 57 1010 travel VB
+58 60 1011 to TO
+61 67 1012 Bosnia NNP COU https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina
+68 71 1013 and CC COU https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina
+72 83 1014 Herzegovina NNP COU https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina
+83 84 1015 , ,
+85 91 1016 Serbia NNP COU https://en.wikipedia.org/wiki/Serbia
+92 95 1017 and CC
+96 102 1018 Kosovo NNP COU https://en.wikipedia.org/wiki/Kosovo
+103 108 1019 later RB
+109 113 1020 this DT
+114 119 1021 month NN
+119 120 1022 . .
+122 124 2001 In IN
+125 126 2002 a DT
+127 136 2003 statement NN
+137 143 2004 Friday NNP
+143 144 2005 , ,
+145 148 2006 Mr. NNP
+149 154 2007 Biden NNP PER https://en.wikipedia.org/wiki/Joe_Biden
+154 156 2008 's POS
+157 163 2009 office NN
+164 168 2010 said VBD
+169 172 2011 the DT
+173 177 2012 vice NN
+178 187 2013 president NN
+188 192 2014 will MD
+193 197 2015 meet VB
+198 202 2016 with IN
+203 206 2017 the DT
+207 216 2018 political JJ
+217 227 2019 leadership NN
+228 230 2020 in IN
+231 234 2021 all DT
+235 240 2022 three CD
+241 250 2023 countries NNS
+250 251 2024 , ,
+252 254 2025 as RB
+255 259 2026 well RB
+260 262 2027 as IN
+263 267 2028 U.S. NNP COU https://en.wikipedia.org/wiki/U.S._state
+268 277 2029 officials NNS
+278 281 2030 and CC
+282 290 2031 military JJ
+291 300 2032 personnel NNS
+301 310 2033 stationed VBN
+311 313 2034 in IN
+314 317 2035 the DT
+318 324 2036 region NN
+324 325 2037 . .
+327 329 3001 It PRP
+330 334 3002 said VBD
+335 338 3003 the DT
+339 343 3004 vice NN
+344 353 3005 president NN
+353 355 3006 's POS
+356 360 3007 trip NN
+361 365 3008 will MD
+366 370 3009 take VB
+371 376 3010 place NN
+377 380 3011 the DT
+381 385 3012 week NN
+386 388 3013 of IN
+389 392 3014 May NNP
+393 395 3015 18 CD
+395 396 3016 , ,
+397 400 3017 and CC
+401 405 3018 that IN
+406 413 3019 further JJR
+414 421 3020 details NNS
+422 426 3021 will MD
+427 429 3022 be VB
+430 438 3023 released VBN
+439 441 3024 at IN
+442 443 3025 a DT
+444 449 3026 later JJ
+450 454 3027 date NN
+454 455 3028 . .

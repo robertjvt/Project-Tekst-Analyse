@@ -1,0 +1,95 @@
+0 3 1001 The DT
+4 12 1002 American JJ
+13 17 1003 fast NN
+18 22 1004 food NN
+23 28 1005 chain NN
+29 32 1006 KFC NNP ORG https://en.wikipedia.org/wiki/KFC
+33 35 1007 is VBZ
+36 42 1008 famous JJ
+43 49 1009 around IN
+50 53 1010 the DT
+54 59 1011 world NN
+60 63 1012 for IN
+64 67 1013 its PRP$
+68 73 1014 fried JJ
+74 81 1015 chicken NN ANI https://en.wikipedia.org/wiki/Chicken
+81 82 1016 . .
+83 86 2001 KFC NNP ORG https://en.wikipedia.org/wiki/KFC
+87 93 2002 stands VBZ
+94 97 2003 for IN
+98 106 2004 Kentucky NNP ORG https://en.wikipedia.org/wiki/KFC
+107 112 2005 Fried NNP ORG https://en.wikipedia.org/wiki/KFC
+113 120 2006 Chicken NNP ORG https://en.wikipedia.org/wiki/KFC
+121 124 2007 and CC
+125 132 2008 founded VBN
+133 135 2009 by IN
+136 142 2010 Harlan NNP PER https://en.wikipedia.org/wiki/Colonel_Sanders
+143 148 2011 David NNP PER https://en.wikipedia.org/wiki/Colonel_Sanders
+149 156 2012 Sanders NNP PER https://en.wikipedia.org/wiki/Colonel_Sanders
+156 157 2013 , ,
+158 164 2014 better RB
+165 169 2015 know VBP
+170 172 2016 to TO
+173 180 2017 patrons NNS
+181 183 2018 as IN
+184 191 2019 Colonel NNP
+192 199 2020 Sanders NNPS
+199 200 2021 . .
+202 204 3001 In IN
+205 210 3002 Kabul NNP CIT https://en.wikipedia.org/wiki/Fall_of_Kabul
+210 211 3003 , ,
+212 223 3004 Afghanistan NNP COU https://en.wikipedia.org/wiki/Afghanistan
+223 224 3005 , ,
+225 232 3006 another DT
+233 236 3007 KFC NNP ORG https://en.wikipedia.org/wiki/KFC
+237 247 3008 restaurant NN
+248 250 3009 is VBZ
+251 256 3010 doing VBG
+257 258 3011 a DT
+259 264 3012 brisk JJ
+265 273 3013 business NN
+273 274 3014 . .
+275 278 4001 But CC
+279 283 4002 this DT
+284 287 4003 KFC NNP ORG https://en.wikipedia.org/wiki/KFC
+288 290 4004 is VBZ
+291 296 4005 short JJ
+297 300 4006 for IN
+301 306 4007 Kabul NNP ORG -
+307 312 4008 Fried NNP ORG -
+313 320 4009 Chicken NNP ORG -
+321 324 4010 and CC
+325 331 4011 serves VBZ
+332 338 4012 kabobs NNS
+339 342 4013 and CC
+343 348 4014 pizza NN
+349 358 4015 alongside IN
+359 362 4016 the DT
+363 370 4017 chicken NN ANI https://en.wikipedia.org/wiki/Chicken
+370 371 4018 . .
+373 381 5001 Rahimgul NNP
+382 389 5002 Sarawan NNP
+390 397 5003 reports NNS
+398 402 5004 from IN
+403 408 5005 Kabul NNP CIT https://en.wikipedia.org/wiki/Kabul
+409 413 5006 that WDT
+414 419 5007 while IN
+420 424 5008 this DT
+425 428 5009 KFC NNP ORG https://en.wikipedia.org/wiki/KFC
+429 432 5010 was VBD
+433 441 5011 inspired VBN
+442 444 5012 by IN
+445 452 5013 Colonel NNP
+453 460 5014 Sanders NNP PER https://en.wikipedia.org/wiki/Bernie_Sanders
+460 461 5015 , ,
+462 466 5016 that WDT
+467 469 5017 is VBZ
+470 475 5018 where WRB
+476 479 5019 the DT
+480 491 5020 association NN
+492 496 5021 ends VBZ
+496 497 5022 . .
+498 503 6001 Brian NNP PER https://en.wikipedia.org/wiki/Brian_Allen_(cornerback)
+504 509 6002 Allen NNP PER https://en.wikipedia.org/wiki/Brian_Allen_(cornerback)
+510 518 6003 narrates NNS
+518 519 6004 . .

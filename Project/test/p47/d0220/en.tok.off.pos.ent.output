@@ -1,0 +1,103 @@
+0 3 1001 The DT
+4 9 1002 first JJ
+10 15 1003 Roman NNP
+16 24 1004 Catholic NNP
+25 31 1005 priest JJS
+32 34 1006 to TO
+35 40 1007 serve VB
+41 43 1008 as IN
+44 45 1009 a DT
+46 52 1010 voting NN
+53 59 1011 member NN
+60 62 1012 of IN
+63 66 1013 the DT
+67 70 1014 U.S NNP ORG https://en.wikipedia.org/wiki/Library_of_Congress
+71 79 1015 Congress NNP ORG https://en.wikipedia.org/wiki/Library_of_Congress
+80 83 1016 has VBZ
+84 88 1017 died VBN
+88 89 1018 . .
+90 100 2001 Georgetown NNP ORG https://en.wikipedia.org/wiki/Georgetown_University
+101 111 2002 University NNP ORG https://en.wikipedia.org/wiki/Georgetown_University
+112 116 2003 says VBZ
+117 125 2004 Reverend NNP
+126 132 2005 Robert NNP PER https://en.wikipedia.org/wiki/Conan_O%27Brien
+133 139 2006 Drinan NNP PER https://en.wikipedia.org/wiki/Conan_O%27Brien
+140 144 2007 died VBD
+145 147 2008 at IN
+148 151 2009 the DT
+152 155 2010 age NN
+156 158 2011 of IN
+159 161 2012 86 CD
+162 167 2013 after IN
+168 177 2014 suffering VBG
+178 182 2015 from IN
+183 192 2016 pneumonia NN
+193 196 2017 and CC
+197 207 2018 congestive JJ
+208 213 2019 heart NN
+214 221 2020 failure NN
+221 222 2021 . .
+223 225 3001 He PRP
+226 237 3002 represented VBD
+238 251 3003 Massachusetts NNP COU https://en.wikipedia.org/wiki/Massachusetts
+252 254 3004 in IN
+255 258 3005 the DT
+259 264 3006 House NNP ORG https://en.wikipedia.org/wiki/House_of_Representatives_of_the_Philippines
+265 267 3007 of IN ORG https://en.wikipedia.org/wiki/House_of_Representatives_of_the_Philippines
+268 283 3008 Representatives NNPS ORG https://en.wikipedia.org/wiki/House_of_Representatives_of_the_Philippines
+284 290 3009 during IN
+291 294 3010 the DT
+295 299 3011 1970 CD
+299 301 3012 's POS
+302 308 3013 before IN
+309 317 3014 stepping VBG
+318 322 3015 down RP
+323 327 3016 when WRB
+328 332 3017 Pope NNP PER https://en.wikipedia.org/wiki/Pope_John_Paul_II
+333 337 3018 John NNP PER https://en.wikipedia.org/wiki/Pope_John_Paul_II
+338 342 3019 Paul NNP PER https://en.wikipedia.org/wiki/Pope_John_Paul_II
+343 345 3020 II NNP PER https://en.wikipedia.org/wiki/Pope_John_Paul_II
+346 352 3021 issued VBD
+353 354 3022 a DT
+355 364 3023 directive JJ
+365 372 3024 barring NN
+373 380 3025 priests NNS
+381 385 3026 from IN
+386 393 3027 holding VBG
+394 400 3028 public JJ
+401 407 3029 office NN
+407 408 3030 . .
+409 414 4001 After IN
+415 422 4002 leaving VBG
+423 431 4003 Congress NNP ORG https://en.wikipedia.org/wiki/Indian_National_Congress
+431 432 4004 , ,
+433 439 4005 Drinan NNP PER https://en.wikipedia.org/wiki/Dan_Drinan
+440 449 4006 continued VBD
+450 452 4007 to TO
+453 461 4008 advocate VB
+462 467 4009 human JJ ANI https://en.wikipedia.org/wiki/Human
+468 474 4010 rights NNS
+475 478 4011 and CC
+479 491 4012 humanitarian JJ
+492 498 4013 causes NNS
+498 499 4014 . .
+500 502 5001 He PRP
+503 507 5002 also RB
+508 514 5003 taught VBD
+515 522 5004 classes NNS
+523 525 5005 on IN
+526 539 5006 international JJ
+540 545 5007 human JJ ANI https://en.wikipedia.org/wiki/Human
+546 552 5008 rights NNS
+552 553 5009 , ,
+554 557 5010 law NN
+557 558 5011 , ,
+559 564 5012 legal JJ
+565 571 5013 ethics NNS
+572 575 5014 and CC
+576 584 5015 religion NN
+585 588 5016 and CC
+589 599 5017 government NN
+600 602 5018 at IN
+603 613 5019 Georgetown NNP CIT https://en.wikipedia.org/wiki/Georgetown,_Texas
+613 614 5020 . .

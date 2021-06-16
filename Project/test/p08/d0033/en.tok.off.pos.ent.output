@@ -1,0 +1,96 @@
+0 8 1001 Bulgaria NNP COU https://en.wikipedia.org/wiki/Sofia
+9 12 1002 has VBZ
+13 23 1003 extradited VBN
+24 27 1004 the DT
+28 34 1005 nephew NN
+35 37 1006 of IN
+38 44 1007 former JJ
+45 52 1008 Turkish NNP
+53 62 1009 president NN
+63 71 1010 Suleyman NNP PER https://en.wikipedia.org/wiki/Tansu_%C3%87iller
+72 79 1011 Demirel NNP PER https://en.wikipedia.org/wiki/Tansu_%C3%87iller
+80 82 1012 to TO
+83 89 1013 Turkey NNP COU https://en.wikipedia.org/wiki/Ankara
+89 90 1014 , ,
+91 96 1015 where WRB
+97 99 1016 he PRP
+100 102 1017 is VBZ
+103 109 1018 wanted VBN
+110 113 1019 for IN
+114 121 1020 massive JJ
+122 127 1021 fraud NN
+127 128 1022 . .
+129 134 2001 Yahya NNP PER https://en.wikipedia.org/wiki/Binali_Y%C4%B1ld%C4%B1r%C4%B1m
+135 140 2002 Murat NNP PER https://en.wikipedia.org/wiki/Binali_Y%C4%B1ld%C4%B1r%C4%B1m
+141 148 2003 Demirel NNP PER https://en.wikipedia.org/wiki/Binali_Y%C4%B1ld%C4%B1r%C4%B1m
+149 152 2004 and CC
+153 156 2005 his PRP$
+157 161 2006 wife NN
+161 162 2007 , ,
+163 170 2008 Aysegul NNP PER https://en.wikipedia.org/wiki/Istanbul
+171 178 2009 Esenler NNP PER https://en.wikipedia.org/wiki/Istanbul
+178 179 2010 , ,
+180 184 2011 were VBD
+185 193 2012 arrested VBN
+194 196 2013 in IN
+197 200 2014 the DT
+201 206 2015 Black NNP NAT https://en.wikipedia.org/wiki/Black_Sea
+207 210 2016 Sea NNP NAT https://en.wikipedia.org/wiki/Black_Sea
+211 215 2017 port NNP
+216 220 2018 city NN
+221 223 2019 of IN
+224 231 2020 Bourgas NNP
+232 234 2021 on IN
+235 243 2022 December NNP
+244 246 2023 31 CD
+247 251 2024 when WRB
+252 256 2025 they PRP
+257 262 2026 tried VBD
+263 265 2027 to TO
+266 271 2028 enter VB
+272 280 2029 Bulgaria NNP COU https://en.wikipedia.org/wiki/Sofia
+281 290 2030 illegally RB
+290 291 2031 . .
+292 295 3001 Mr. NNP
+296 303 3002 Demirel NNP PER https://en.wikipedia.org/wiki/Volkan_Demirel
+304 307 3003 had VBD
+308 312 3004 been VBN
+313 322 3005 forbidden VBN
+323 325 3006 by IN
+326 333 3007 Turkish JJ
+334 340 3008 courts NNS
+341 343 3009 to TO
+344 349 3010 leave VB
+350 353 3011 the DT
+354 361 3012 country NN
+361 362 3013 , ,
+363 368 3014 where WRB
+369 371 3015 he PRP
+372 374 3016 is VBZ
+375 377 3017 on IN
+378 383 3018 trial NN
+384 386 3019 in IN
+387 397 3020 connection NN
+398 402 3021 with IN
+403 406 3022 the DT
+407 415 3023 collapse NN
+416 418 3024 of IN
+419 426 3025 Turkish NNP ORG https://en.wikipedia.org/wiki/%C4%B0%C5%9Fbank
+427 434 3026 Egebank NNP ORG https://en.wikipedia.org/wiki/%C4%B0%C5%9Fbank
+434 435 3027 , ,
+436 441 3028 which WDT
+442 444 3029 he PRP
+445 450 3030 owned VBD
+450 451 3031 . .
+452 454 4001 He PRP
+455 458 4002 and CC
+459 462 4003 his PRP$
+463 467 4004 wife NN
+468 472 4005 were VBD
+473 482 4006 delivered VBN
+483 485 4007 to TO
+486 493 4008 Turkish VB
+494 505 4009 authorities NNS
+506 512 4010 Friday NNP
+513 520 4011 morning NN
+520 521 4012 . .

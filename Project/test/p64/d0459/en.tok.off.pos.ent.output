@@ -1,0 +1,63 @@
+0 5 1001 Opera NN
+6 10 1002 fans NNS
+11 13 1003 in IN
+14 17 1004 New NNP COU https://en.wikipedia.org/wiki/New_York_City
+18 22 1005 York NNP COU https://en.wikipedia.org/wiki/New_York_City
+23 27 1006 were VBD
+28 36 1007 recently RB
+37 44 1008 treated VBN
+45 47 1009 to TO
+48 49 1010 a DT
+50 54 1011 rare JJ
+55 66 1012 performance NN
+67 69 1013 of IN
+70 73 1014 one CD
+74 77 1015 the DT
+78 82 1016 most RBS
+83 92 1017 ambitious JJ
+93 100 1018 musical JJ
+101 108 1019 theater NN
+109 115 1020 pieces NNS
+116 120 1021 ever RB
+121 129 1022 produced VBN
+129 130 1023 . .
+131 136 2001 Bernd NNP PER https://en.wikipedia.org/wiki/Bernd_Alois_Zimmermann
+137 142 2002 Alois NNP PER https://en.wikipedia.org/wiki/Bernd_Alois_Zimmermann
+143 153 2003 Zimmermann NNP PER https://en.wikipedia.org/wiki/Bernd_Alois_Zimmermann
+153 155 2004 's POS
+156 159 2005 Die NNP
+160 168 2006 Soldaten NNP
+169 172 2007 was VBD
+173 180 2008 mounted VBN
+181 183 2009 in IN
+184 187 2010 the DT
+188 197 2011 cavernous JJ
+198 203 2012 drill NN
+204 208 2013 hall NN
+209 211 2014 of IN
+212 215 2015 the DT
+216 220 2016 Park NNP
+221 227 2017 Avenue NNP
+228 234 2018 Armory NNP
+234 235 2019 . .
+236 239 3001 VOA NNP ORG -
+239 241 3002 's POS
+242 248 3003 Behnam NNP PER https://en.wikipedia.org/wiki/Tabriz_Petrochemical_CCN_Team
+249 256 3004 Nateghi NNP PER https://en.wikipedia.org/wiki/Tabriz_Petrochemical_CCN_Team
+257 262 3005 takes VBZ
+263 265 3006 us PRP
+266 272 3007 behind IN
+273 276 3008 the DT
+277 283 3009 scenes NNS
+284 287 3010 for IN
+288 289 3011 a DT
+290 296 3012 closer JJR
+297 301 3013 look NN
+302 304 3014 at IN
+305 308 3015 the DT
+309 316 3016 staging NN
+317 319 3017 of IN
+320 324 3018 this DT
+325 331 3019 German JJ
+332 337 3020 opera NN
+337 338 3021 . .

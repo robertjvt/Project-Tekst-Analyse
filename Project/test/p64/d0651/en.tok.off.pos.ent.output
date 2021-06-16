@@ -1,0 +1,51 @@
+0 4 1001 U.S. NNP COU https://en.wikipedia.org/wiki/U.S._state
+5 18 1002 seismologists NNS
+19 22 1003 say VBP
+23 25 1004 an DT
+26 36 1005 earthquake NN
+37 41 1006 with IN
+42 43 1007 a DT
+44 53 1008 magnitude NN
+54 56 1009 of IN
+57 60 1010 6.8 CD
+61 64 1011 has VBZ
+65 71 1012 struck VBN
+72 81 1013 Guatemala NNP COU https://en.wikipedia.org/wiki/Guatemala
+81 82 1014 . .
+83 88 2001 There EX
+89 93 2002 were VBD
+94 96 2003 no DT
+97 106 2004 immediate JJ
+107 114 2005 reports NNS
+115 117 2006 of IN
+118 126 2007 injuries NNS
+127 129 2008 or CC
+130 135 2009 major JJ
+136 142 2010 damage NN
+143 152 2011 following VBG
+153 156 2012 the DT
+157 163 2013 tremor NN
+164 173 2014 Wednesday NNP
+173 174 2015 . .
+175 178 3001 The DT
+179 183 3002 U.S. NNP ORG https://en.wikipedia.org/wiki/United_States_Geological_Survey
+184 194 3003 Geological NNP ORG https://en.wikipedia.org/wiki/United_States_Geological_Survey
+195 201 3004 Survey NNP ORG https://en.wikipedia.org/wiki/United_States_Geological_Survey
+202 206 3005 says VBZ
+207 210 3006 the DT
+211 220 3007 epicenter NN
+221 223 3008 of IN
+224 227 3009 the DT
+228 233 3010 quake NN
+234 237 3011 was VBD
+238 242 3012 near IN
+243 246 3013 the DT
+247 254 3014 Pacific NNP
+255 260 3015 coast NN
+261 266 3016 about IN
+267 270 3017 115 CD
+271 281 3018 kilometers NNS
+282 286 3019 from IN
+287 296 3020 Guatemala NNP CIT https://en.wikipedia.org/wiki/Guatemala_City
+297 301 3021 City NNP CIT https://en.wikipedia.org/wiki/Guatemala_City
+301 302 3022 . .
